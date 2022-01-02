@@ -1,0 +1,1 @@
+This is startup business founded with Andrei Kovacs.

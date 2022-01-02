@@ -1,0 +1,5 @@
+- The importance of sleeping at least 8 hours.
+- Update #1 - December
+- Busy people don't care about your work (done) 
+- The price of your product tells a story
+- The masses don't want what the early adopters want
