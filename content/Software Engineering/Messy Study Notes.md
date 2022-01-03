@@ -1,2 +1,0 @@
-### Multithreading
-Today 21/12/2021 I have encountered my first multi-threading problem on Leetocde, "Print in Order", in c++. Here I have learned about the concept of the [[conditinal_variable]],  [[mutex]], [[unique_lock]].

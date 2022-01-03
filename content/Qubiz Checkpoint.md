@@ -1,5 +1,0 @@
-- Explore the idea of teaching the Scrum Values at Qubiz by training individuals.
-- Tell everyone about the certification I want to get: PSM 1, 2, 3.
-- The certification is not to transit to a Scrum Master but to become a really good developer while knowing the Scrum values by heart.
-- The fact that I've mentored the Life @ Qubiz project.
-- I've help the CSS training for the QA internship.
