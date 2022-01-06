@@ -1,7 +1,7 @@
 ---
-title: 🪴 My Garden
+title: "🪴 My Garden"
 ---
 
 ### Scrum Articles
-> 📚 [Scrum Values](Medium/Scrum Values)
+> 📚 [Scrum Values](Medium/Scrum Values.md)
 
