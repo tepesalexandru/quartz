@@ -81,7 +81,7 @@ Ideas:
 What/How do I want to be at the end of 2022?
 
 ### Quaters Overview:
-[Q1 2022](Master Plans/2022/Q1/Q1 2022.md)
-[Q2 2022](Master Plans/2022/Q2 2022.md)
-[Q3 2022](Master Plans/2022/Q3 2022.md)
-[Q4 2022](Master Plans/2022/Q4 2022.md)
+[Q1 2022](Master%20Plans/2022/Q1/Q1%202022.md)
+[Q2 2022](Master%20Plans/2022/Q2%202022.md)
+[Q3 2022](Master%20Plans/2022/Q3%202022.md)
+[Q4 2022](Master%20Plans/2022/Q4%202022.md)
