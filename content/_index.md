@@ -2,6 +2,6 @@
 title: 🪴 My Garden
 ---
 
-### Scrum Values
-> 📚 [[Scrum Values]]
+### Scrum Articles
+> 📚 [Scrum Values](Medium/Scrum Values)
 
