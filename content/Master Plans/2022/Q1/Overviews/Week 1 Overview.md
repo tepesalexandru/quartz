@@ -7,7 +7,7 @@ title: "Week 1 - 2022"
 	- Monday: 1m 
 	- Tuesday: 2m 
 	- Wednesday: 3m
-	- Thursday: 11m 
+	- Thursday: 11m + 13m = 24m
 
 ### Business
 - [ ] Publish 2 Articles about Scrum Values (1/2)
