@@ -10,13 +10,13 @@ title: "Week 1 - 2022"
 	- Thursday: 11m + 13m = 24m
 
 ### Business
-- [ ] Publish 2 Articles about Scrum Values (1/2)
+- [x] Publish 2 Articles about Scrum Values (2/2)
 - [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (3/9)
 
 ### Knowledge
 - [ ] Listen to 4 hours of the Elon Musk book.
 - [ ] Take notes from the Elon Musk audiobook
-- [ ] Master the 5 Scrum Values (2/5)
+- [ ] Master the 5 Scrum Values (3/5)
 - [ ] Take 2 Test Scrum Assessments 
 
 ### Lessons
@@ -24,7 +24,7 @@ title: "Week 1 - 2022"
 - [ ] Private Lessons with Robert on Friday => 50 RON
 
 ### University
-- [ ] Catch up on Database Lecture (30/? mins)🌟
+- [ ] Catch up on Database Lecture (60/? mins)🌟
 
 ### Personal
 - [x] Cook Potato Salad (1h 30m) 🌟
