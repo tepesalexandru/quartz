@@ -2,7 +2,7 @@
 title: "Week 1 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (one per day) (2/7)
+- [ ] Take 7 showers (one per day) (3/7)
 - [x] Jump-Rope Workout (17m/ 15 min)
 	- Monday: 1m 
 	- Tuesday: 2m 
@@ -11,13 +11,13 @@ title: "Week 1 - 2022"
 
 ### Business
 - [x] Publish 2 Articles about Scrum Values (2/2)
-- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (3/9)
+- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (4/9)
 
 ### Knowledge
 - [ ] Listen to 4 hours of the Elon Musk book.
 - [ ] Take notes from the Elon Musk audiobook
 - [ ] Master the 5 Scrum Values (3/5)
-- [ ] Take 2 Test Scrum Assessments 
+- [ ] Take 2 Test Scrum Assessments (1/2)
 
 ### Lessons
 - [x] Private Lessons with Flavius on Monday => 50 RON

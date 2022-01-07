@@ -85,3 +85,7 @@ What/How do I want to be at the end of 2022?
 [Q2 2022](Master%20Plans/2022/Q2%202022.md)
 [Q3 2022](Master%20Plans/2022/Q3%202022.md)
 [Q4 2022](Master%20Plans/2022/Q4%202022.md)
+
+### Iteration Changes
+[Iteration 1](Master%20Plans/2022/Iteration%20Changes/Iteration%201.md)
+
