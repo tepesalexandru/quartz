@@ -17,11 +17,12 @@ title: "Week 1 - 2022"
 - [ ] Listen to 4 hours of the Elon Musk book.
 - [ ] Take notes from the Elon Musk audiobook
 - [ ] Master the 5 Scrum Values (3/5)
-- [ ] Take 2 Test Scrum Assessments (1/2)
+- [x] Take 2 Test Scrum Assessments (2/2)
+	-  Open Assessments (80%, 70%)
 
 ### Lessons
 - [x] Private Lessons with Flavius on Monday => 50 RON
-- [ ] Private Lessons with Robert on Friday => 50 RON
+- [x] Private Lessons with Robert on Friday => 50 RON
 
 ### University
 - [ ] Catch up on Database Lecture (60/? mins)🌟
