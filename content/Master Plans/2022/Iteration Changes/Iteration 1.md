@@ -7,4 +7,7 @@ title: "Iteration 1 - 2022"
 
 Its still uncertain, but I think the best order of action would be going for the PSD certification after the PSM1 certification.
 
+> The company direction has changed and we will not be focusing our attention to building apps. Our main focus will be producing online content.
+
 #### Conclusion & Changes
+- I'm not going to dedicate any more time towards the Simple Progress app.

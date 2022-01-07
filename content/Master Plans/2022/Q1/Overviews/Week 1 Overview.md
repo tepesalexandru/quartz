@@ -11,7 +11,7 @@ title: "Week 1 - 2022"
 
 ### Business
 - [x] Publish 2 Articles about Scrum Values (2/2)
-- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (4/9)
+- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (5/9)
 
 ### Knowledge
 - [ ] Listen to 4 hours of the Elon Musk book.
