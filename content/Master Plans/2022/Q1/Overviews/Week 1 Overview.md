@@ -11,12 +11,12 @@ title: "Week 1 - 2022"
 
 ### Business
 - [x] Publish 2 Articles about Scrum Values (2/2)
-- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (5/9)
+- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (8.5/9)
 
 ### Knowledge
-- [ ] Listen to 4 hours of the Elon Musk book.
-- [ ] Take notes from the Elon Musk audiobook
-- [ ] Master the 5 Scrum Values (3/5)
+- [ ] Listen to 4 hours of the ~~Elon Musk~~ -> **Atomic Habits** book.
+- [ ] Take notes from the ~~Elon Musk~~ -> **Atomic Habits** audiobook
+- [x] Master the 5 Scrum Values (5/5)
 - [x] Take 2 Test Scrum Assessments (2/2)
 	-  Open Assessments (80%, 70%)
 
