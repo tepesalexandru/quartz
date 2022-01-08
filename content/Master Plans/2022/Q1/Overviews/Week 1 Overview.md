@@ -2,7 +2,7 @@
 title: "Week 1 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (one per day) (3/7)
+- [ ] Take 7 showers (one per day) (4/7)
 - [x] Jump-Rope Workout (17m/ 15 min)
 	- Monday: 1m 
 	- Tuesday: 2m 
