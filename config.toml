@@ -2,7 +2,7 @@ baseURL = "https://tepesalexandru.github.io/quartz/"
 languageCode = "en-us"
 googleAnalytics = "G-JCGDDPXTHF"
 pygmentsUseClasses = true
-relativeURLs = false
+relativeURLs = true
 disablePathToLower = true
 ignoreFiles = [
     "/content/templates/*",
