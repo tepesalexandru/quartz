@@ -10,8 +10,8 @@ title: "Week 1 - 2022"
 	- Thursday: 11m + 13m = 24m
 
 ### Business
-- [x] Publish 2 Articles about Scrum Values (2/2)
-- [ ] Work on The Boring Team for 9 hours (1.5 hours per day) (8.5/9)
+- [x] Publish 2 Articles about Scrum Values (3/2)
+- [x] Work on The Boring Team for 9 hours (1.5 hours per day) (9/9)
 
 ### Knowledge
 - [ ] Listen to 4 hours of the ~~Elon Musk~~ -> **Atomic Habits** book.
