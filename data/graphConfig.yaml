@@ -3,6 +3,6 @@ enableDrag: true
 enableZoom: true
 depth: -1 # set to -1 to show full graph
 paths:
-  - /Research: "#3a0ca3"
-  - /PSM_1: "#4361ee"
-  - /Master_Plans: "#f72585"
+  - Research: "#3a0ca3"
+  - PSM_1: "#4361ee"
+  - Master_Plans: "#f72585"
