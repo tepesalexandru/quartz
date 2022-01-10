@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Master_Plans",
+      "color": {
+        "a": 1,
+        "rgb": 8467170
+      }
+    },
+    {
+      "query": "path:Research",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:PSM_1",
+      "color": {
+        "a": 1,
+        "rgb": 3641298
+      }
+    },
+    {
+      "query": "file:_index",
+      "color": {
+        "a": 1,
+        "rgb": 12980240
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.0000000000000013,
+  "close": true
+}
