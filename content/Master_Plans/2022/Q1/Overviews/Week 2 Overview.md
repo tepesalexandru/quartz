@@ -4,6 +4,7 @@ title: "Week 2 - 2022"
 ### Health
 - [ ] Take 7 showers
 - [ ] Jump Rope workout (35 minutes) => 5 minutes per day
+	- Monday - 5m
 
 ### Business
 - [ ] Publish 2 Medium articles about Scrum
@@ -18,10 +19,10 @@ title: "Week 2 - 2022"
 
 ### Personal
 - [ ] Sunday Retrospective (30 minutes)
-- [ ] Private Lessons with Flavius on Monday => 50 RON
+- [x] Private Lessons with Flavius on Monday => 50 RON
 - [ ] Private Lessons with Robert on Friday => 50 RON
 
 ### University 
 - [ ] Finish studying for Database Test
 - [ ] Finish studying for Cryptography Exam
-- [ ] Attend Statistics Lecture on Monday
+- [x] Attend Statistics Lecture on Monday
