@@ -11,13 +11,9 @@
     }
 </style>
 <script>
-  const index = {{$.Site.Data.linkIndex.index}}
-  const links = {{$.Site.Data.linkIndex.links}}
-  const content = {{$.Site.Data.contentIndex}}
   const curPage = {{ strings.TrimRight "/" .Page.RelPermalink }}.replace({{strings.TrimRight "/" .Site.BaseURL }}, "")
   const pathColors = {{$.Site.Data.graphConfig.paths}}
   let depth = {{$.Site.Data.graphConfig.depth}}
-
   const parseIdsFromLinks = (links) => [...(new Set(links.flatMap(link => ([link.source, link.target]))))]
 
   const neighbours = new Set()
