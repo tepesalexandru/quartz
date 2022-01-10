@@ -12,7 +12,7 @@ title: "Week 2 - 2022"
 
 ### Knowledge
 - [ ] Read the Scrum Guide once (3.802 words)
-- [ ] Take 2 Test Scrum Assessments
+- [ ] Take 2 Test Scrum Assessments (1/2)
 - [ ] Listen to 4 hours of the ~~Elon Musk~~ -> **Atomic Habits** book.
 - [ ] Take notes from the ~~Elon Musk~~ -> **Atomic Habits** audiobook
 
@@ -24,3 +24,4 @@ title: "Week 2 - 2022"
 ### University 
 - [ ] Finish studying for Database Test
 - [ ] Finish studying for Cryptography Exam
+- [ ] Attend Statistics Lecture on Monday
