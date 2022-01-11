@@ -8,8 +8,8 @@ title: "Week 2 - 2022"
 
 ### Business
 - [ ] Publish 2 Medium articles about Scrum
-- [ ] Research NextJS (2 hours)
-- [ ] Build NextJS Episode 1 script (3 hours)
+- [ ] Research NextJS (1/2 hours)
+- [ ] Build NextJS Episode 1 script (1/3 hours)
 
 ### Knowledge
 - [ ] Read the Scrum Guide once (3.802 words)
@@ -23,6 +23,6 @@ title: "Week 2 - 2022"
 - [ ] Private Lessons with Robert on Friday => 50 RON
 
 ### University 
-- [ ] Finish studying for Database Test
-- [ ] Finish studying for Cryptography Exam
+- [x] Finish studying for Database Test
+- [ ] Finish studying for Cryptography Exam (30 minutes)
 - [x] Attend Statistics Lecture on Monday
