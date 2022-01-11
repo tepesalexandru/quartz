@@ -3,7 +3,8 @@ title: "NextJS - Episode 1"
 ---
 ### NextJS - Episode 1: Introduction
 Estimated script reading time **~5 minutes**.
-Estimated video time **~5 minutes**.
+
+Estimated video time **~10 minutes**.
 
 #### Introduction ~ 0.5 minutes
 Hi everyone and welcome to the first episode in this series. I'll be covering everything you need to know to get started with NextJS and create your own projects. This is a hands-on course, where you can follow along coding. We will be building a Note Taking app similar to Obsidian, and you will be able to publish it at the end of the course.
