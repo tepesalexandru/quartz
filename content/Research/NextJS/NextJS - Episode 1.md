@@ -12,7 +12,7 @@ Hi everyone and welcome to the first episode in this series. I'll be covering ev
 #### What is NextJS? ~0.8 minutes
 Before I dive any deeper, let's take some time to look at what NextJS is and what it can offer.
 
-🎬 *Display a slider with information about the NextJS feature*
+🎬 *Display a slider with information about the NextJS features*
 
 NextJS is a **React Framework** that aims to have the best developer experience, and also comes with many built in features, such as:
 - Page based routing
