@@ -9,7 +9,7 @@ title: "Week 2 - 2022"
 	- Thursday - 4m
 
 ### Business
-- [ ] Publish 2 Medium articles about Scrum
+- [x] Publish 1 Medium articles about Scrum
 - [ ] Research NextJS (1/2 hours)
 - [ ] Build NextJS Episode 1 script (1.5/3 hours)
 - [ ] Create NextJS Episode 1 sliders (1/2 hours) 🌟
