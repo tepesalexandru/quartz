@@ -5,6 +5,7 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 
 ### Scripts
 #### [NextJS - Episode 1: Introduction](Research/NextJS/NextJS%20-%20Episode%201.md)
+#### [NextJS - Episode 2: Routing](Research/NextJS/NextJS%20-%20Episode%202.md)
 
 ### Research
 #### [NextJS Research](Research/NextJS/NextJS%20Research.md)

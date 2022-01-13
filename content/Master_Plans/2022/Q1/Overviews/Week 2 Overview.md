@@ -6,6 +6,7 @@ title: "Week 2 - 2022"
 - [ ] Jump Rope workout (35 minutes) => 5 minutes per day
 	- Monday - 5m
 	- Wednesday - 10m
+	- Thursday - 2m
 
 ### Business
 - [ ] Publish 2 Medium articles about Scrum
