@@ -3,10 +3,10 @@ title: "Q1 Progress - 2022"
 ---
 ### Business
 #### Articles (5/25)
-- [Scrum Values](PSM_1/Scrum%20Values.md) (5 article series)
+- Scrum Values (5 article series)
 
 #### Scripts
-- [NextJS - Episode 1](Research/NextJS/NextJS%20-%20Episode%201.md) 
+- NextJS - Episode 1: Introduction
 
 ### Health
 #### Jump Rope

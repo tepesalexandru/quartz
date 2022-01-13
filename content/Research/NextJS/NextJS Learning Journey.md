@@ -9,3 +9,4 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 
 ### Research
 #### [NextJS Research](Research/NextJS/NextJS%20Research.md)
+
