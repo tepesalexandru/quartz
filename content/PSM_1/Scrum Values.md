@@ -17,4 +17,6 @@ You can dive into each one by clicking any link down below:
 #### [Commitment — Always do your best (Part 4 of 5)](https://medium.com/the-boring-team/commitment-always-do-your-best-part-4-of-5-679ca701d995?source=your_stories_page----------------------------------------)
 *Published January 9th, 2021*
 
-*Part 5 coming next week.*
+#### [Respect — Everyone is valuable (Part 5 of 5)](https://medium.com/the-boring-team/respect-everyone-is-valuable-part-5-of-5-874a064b392d?source=your_stories_page----------------------------------------)
+*Published January 13th, 2021*
+
