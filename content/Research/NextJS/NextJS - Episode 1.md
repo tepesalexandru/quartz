@@ -7,7 +7,7 @@ Estimated script reading time **~5 minutes**.
 Estimated video time **~10 minutes**.
 
 #### Introduction ~ 0.5 minutes
-Hi everyone and welcome to the first episode in this series. I'll be covering everything you need to know to get started with NextJS and create your own projects. This is a hands-on course, where you can follow along coding. We will be building a Note Taking app similar to Obsidian, and you will be able to publish it at the end of the course.
+Hi everyone and welcome to the first episode in this series. I'll be covering everything you need to know to get started with NextJS and create your own projects. This is a hands-on course, where you can follow along coding. We'll be building a simple Movie app while covering the core concepts of NextJS, and you will be able to publish it at the end of the course.
 
 #### What is NextJS? ~0.8 minutes
 Before I dive any deeper, let's take some time to look at what NextJS is and what it can offer.
@@ -40,7 +40,7 @@ For Server Side Rendering, the HTML will be generated on **each request**.
 For now, this is everything you need to know to get started with NextJS. I'll dive deeper into the other concepts whenever I will be making use of them. Now, let's setup everything we need to get started.
 
 #### Setup ~0.7 minutes
-First off, be sure to install the latest stable version of [NodeJS](https://nodejs.org/en/). You can check if you have node installed by opening up the command prompt and typing in `node -v`. If it's installed, the node version on your computer will appear on the screen. The links to everything you need to download will be in the video description down below.
+First off, be sure to install the latest stable version of [NodeJS](https://nodejs.org/en/)  (Version MUST be >= 12.22.0). You can check if you have node installed by opening up the command prompt and typing in `node -v`. If it's installed, the node version on your computer will appear on the screen. The links to everything you need to download will be in the video description down below.
 
 Secondly, you will need an IDE. My personal preference is VS Code, which you can download from [here](https://code.visualstudio.com/).
 
@@ -49,15 +49,15 @@ That's all you need to get started. Let's create the base NextJS project.
 #### Creating the base project ~1.7 minutes
 Open up the command prompt in VS Code by pressing **CTRL + ~** on your keyboard and type in
 ```
-npx create-next-app@latest nextjs-notes --typescript
+npx create-next-app@latest nextjs-movies --typescript
 ```
-Here, `nextjs-notes` is the name of the folder where the NextJS app will be created. The flag `--typescript` indicates that we're going to be using Typescript in this project.
+Here, `nextjs-movies` is the name of the folder where the NextJS app will be created. The flag `--typescript` indicates that we're going to be using Typescript in this project.
 
 🎬 *Run commands*
 
 Now that the files have been created, type in the following commands to run the project locally
 ```
-cd nextjs-notes
+cd nextjs-movies
 npm run dev
 ```
 
@@ -69,4 +69,9 @@ The content of the main page are situated in the `pages/index.js` file. Here you
 
 🎬 *Proceed to change some text on the main page*
 
-Be sure to save the file and have the development server running. As you can see, the browser updated instantly. That's Fast Refresh in action. We have instant feedback on any change we make in our files.
+Be sure to save the file and have the development server running. As you can see, the browser updated instantly. That's Fast Refresh in action. We have instant feedback on any changes we make in our files.
+
+#### Ending ~0.3 minutes
+In the next Episode, we'll take a look at navigation in NextJS and how to have multiple pages in our app, since currently theres only this one. Tune in for the next episode to learn more. See you there!
+
+🎬 *Display outro and link to next episode*
