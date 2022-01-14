@@ -22,7 +22,3 @@ NextJS Episode 1
 Total from Private Lessons = **200 RON**
 - Private Lessons with Flavius x2 => 50 RON x 2 = **100 RON**
 - Private Lessons with Robert x2 => 50 RON x 2 = **100 RON**
-
-```ad-note
-asd
-```
