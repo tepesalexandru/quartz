@@ -69,7 +69,7 @@ npm run dev
 
 To view your project, go to localhost:3000 or press **CTRL + Click** on the URL that appears in the command prompt. If everything went as expected, we should see the base NextJS project running. All of the content on the page was automatically created when we ran the scripts, and it can be edited. Let's make a change to see Fast Refresh in action.
 
-The content of the main page are situated in the `pages/index.js` file. Here you can edit anything, and it will be updated instantly on the browser without the need to refresh. 
+The content of the main page are situated in the `pages/index.tsx` file. Here you can edit anything, and it will be updated instantly on the browser without the need to refresh. 
 
 🎬 *Proceed to change some text on the main page*
 

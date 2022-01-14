@@ -5,15 +5,24 @@ title: "Q1 Progress - 2022"
 #### Articles (5/25)
 - Scrum Values (5 article series)
 
-#### Scripts
-- NextJS - Episode 1: Introduction
+#### Youtube
+NextJS Episode 1
+	Research, Script & Sliders
+
+---
 
 ### Health
 #### Jump Rope
 - Week 1 => 30 minutes
 - Week 2 =>
 
+---
+
 ### Personal
-Total from Private Lessons = **150 RON**
+Total from Private Lessons = **200 RON**
 - Private Lessons with Flavius x2 => 50 RON x 2 = **100 RON**
-- Private Lessons with Robert x2 => 50 RON x 1 = **50 RON**
+- Private Lessons with Robert x2 => 50 RON x 2 = **100 RON**
+
+```ad-note
+asd
+```
