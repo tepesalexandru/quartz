@@ -6,6 +6,8 @@ Estimated script reading time **~5 minutes**.
 
 Estimated video time **~10 minutes**.
 
+To view the sliders, click [here](https://www.canva.com/design/DAE1Nqki-9M/KWKN8pUir5HhoT44o8UrQA/view?utm_content=DAE1Nqki-9M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
+
 #### Introduction ~ 0.5 minutes
 Hi everyone and welcome to the first episode in this series. I'll be covering everything you need to know to get started with NextJS and create your own projects. This is a hands-on course, where you can follow along coding. We'll be building a simple Movie app while covering the core concepts of NextJS, and you will be able to publish it at the end of the course.
 
@@ -17,25 +19,27 @@ Before I dive any deeper, let's take some time to look at what NextJS is and wha
 NextJS is a **React Framework** that aims to have the best developer experience, and also comes with many built in features, such as:
 - Page based routing
 - Pre-rendering, including both Static Generation and Server Side Rendering (more on that later)
-- Client side routing with optimized prefetching.
+- Image optimization.
 - Fast Refresh.
 - Typescript support.
 - And many more.
 
 Pre-rendering is one of the key features that make NextJS truly a powerful framework, let's see what pre-rendering is and what it does under the hood.
 
-🎬 *Display a slider with information about the NextJS pre-rendering*
+🎬 *Display slider with NextJS pre-rendering SSG vs SSR*
 
 #### Pre-rendering ~1.3 minutes
 By default, NextJS pre-renders every page. This means that NextJS generates the HTML needed for each page in advance, instead of having it all done by client-side javascript. This results in better performance and SEO.
 
-Each HTML file from the pre-rendered pages comes with minimal javascript neccessary for that page. When the page is loaded, the js code gets executed and makes the page fully interactive. This process is called hydration.
-
-I've mentioned before that there are two forms of pre-rendering Static Generation (SSG) and Server Side Rendering (SSR). The difference between them is in **when** NextJS generated the HTML for a page.
+There are two forms of pre-rendering Static Generation (SSG) and Server Side Rendering (SSR). The difference between them is in **when** NextJS generated the HTML for a page.
 
 For Static Generation, which is always recommended when possible, HTML is generated at **build time**, and will be reused on each request.
 
 For Server Side Rendering, the HTML will be generated on **each request**.
+
+🎬 *Display slider with NextJS Pre-rendering hydration*
+
+Each HTML file from the pre-rendered pages comes with minimal javascript neccessary for that page. When the page is loaded, the js code gets executed and makes the page fully interactive. This process is called hydration.
 
 For now, this is everything you need to know to get started with NextJS. I'll dive deeper into the other concepts whenever I will be making use of them. Now, let's setup everything we need to get started.
 

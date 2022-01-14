@@ -2,7 +2,7 @@
 title: "Week 2 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (2/7)
+- [ ] Take 7 showers (3/7)
 - [ ] Jump Rope workout (35 minutes) => 5 minutes per day
 	- Monday - 5m
 	- Wednesday - 10m
