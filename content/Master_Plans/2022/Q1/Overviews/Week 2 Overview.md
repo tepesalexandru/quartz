@@ -11,8 +11,8 @@ title: "Week 2 - 2022"
 ### Business
 - [x] Publish 1 Medium articles about Scrum
 - [ ] Research NextJS (1/2 hours)
-- [ ] Build NextJS Episode 1 script (1.5/3 hours)
-- [ ] Create NextJS Episode 1 sliders (1/2 hours) 🌟
+- [x] Build NextJS Episode 1 script (2/2 hours)
+- [x] Create NextJS Episode 1 sliders (2/2 hours) 🌟
 
 ### Knowledge
 - [ ] Read the Scrum Guide once (3.802 words)
