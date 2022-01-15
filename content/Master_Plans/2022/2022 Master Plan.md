@@ -49,7 +49,7 @@ Base pillars of 2022:
 - 26 Retrospective Sessions [13 Hours] ⭐
 - 13 Anchoring Sessions. [6.5 Hours] ⭐
 
-##### Important notes:
+#### Important notes:
 - Mental and physical health should be top notch priorities in 2022. I will do anything in my power to improve these 2 areas. Professional achievement grows a hundred times faster with a strong mind and body. Examples:
 	- DON'T NUKE MY BRAIN.
 	- Sleep well.

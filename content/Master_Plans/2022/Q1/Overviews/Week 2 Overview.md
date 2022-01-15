@@ -18,7 +18,8 @@ title: "Week 2 - 2022"
 - [x] Solidity research (1h) 🌟 
 
 ### Knowledge
-- [ ] Read the Scrum Guide once (3.802 words)
+- [ ] Read the Scrum Guide once (3.802 words) ❌
+- [ ] Practice Scrum Questions (45m/?m) 🌟
 - [ ] Take 2 Test Scrum Assessments (1/2)
 - [ ] Listen to 4 hours of the ~~Elon Musk~~ -> **Atomic Habits** book. (30m/240m)
 - [ ] Take notes from the ~~Elon Musk~~ -> **Atomic Habits** audiobook (10m/?m)
@@ -27,6 +28,7 @@ title: "Week 2 - 2022"
 - [ ] Sunday Retrospective (30 minutes)
 - [x] Private Lessons with Flavius on Monday => 50 RON
 - [x] Private Lessons with Robert on Friday => 50 RON (done on thursday)
+- [ ] Work on Database homework (180m)
 
 ### University 
 - [x] Finish studying for Database Test
