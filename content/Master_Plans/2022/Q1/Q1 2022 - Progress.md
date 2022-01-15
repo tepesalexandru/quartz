@@ -7,7 +7,7 @@ title: "Q1 Progress - 2022"
 
 #### Youtube
 NextJS Episode 1
-	Research, Script & Sliders
+	Research, Script & Sliders, Voice Over
 
 ---
 

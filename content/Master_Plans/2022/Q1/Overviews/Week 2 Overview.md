@@ -28,9 +28,9 @@ title: "Week 2 - 2022"
 - [ ] Sunday Retrospective (30 minutes)
 - [x] Private Lessons with Flavius on Monday => 50 RON
 - [x] Private Lessons with Robert on Friday => 50 RON (done on thursday)
-- [ ] Work on Database homework (180m)
 
 ### University 
+- [ ] Work on Database homework (120m)
 - [x] Finish studying for Database Test
 - [x] Finish studying for Cryptography Exam (30 minutes)
 - [x] Attend Statistics Lecture on Monday
