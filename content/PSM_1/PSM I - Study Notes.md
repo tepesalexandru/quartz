@@ -11,5 +11,3 @@ Welcome to my study notes, explore the following question packs to learn for the
 >🥼 [Scrum Roles](PSM_1/Questions%20Packs/Scrum%20Roles.md)
 >
 >💡 [Scrum Theory](PSM_1/Questions%20Packs/Scrum%20Theory.md)
-
-

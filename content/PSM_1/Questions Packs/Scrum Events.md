@@ -1,5 +1,5 @@
 ---
-title: "Scrum Events | Questions Pack - (PSM I)"
+title: "Scrum Events | Questions Pack"
 ---
 #### Question 1
 What are the Scrum Events?
@@ -28,3 +28,17 @@ What are the questions the Sprint Planning answers?
 
 - What can be delivered in the Increment resulting from the upcoming Sprint?
 - How will the work needed to deliver the Incremenet be achieved?
+
+#### Question 6
+Who participates in the Sprint Planning?
+- The Development Team
+- The Product Owner
+- The Scrum Master
+
+#### Question 7
+Who participates in the Sprint Review?
+
+- The Development Team
+- The Product Owner
+- The Scrum Master
+- The Key Stakeholders

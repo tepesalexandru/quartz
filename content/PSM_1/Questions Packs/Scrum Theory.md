@@ -1,5 +1,5 @@
 ---
-title: "Scrum Theory | Questions Pack - (PSM I)"
+title: "Scrum Theory | Questions Pack"
 ---
 #### Question 1
 How frequently should scrum users inspect Scrum artifacts and progress toward a Sprint Goal?
@@ -23,3 +23,8 @@ What the five Scrum Values?
 - Respect
 - Openness
 - Commitment
+
+#### Question 5
+What should be taken into account for the Definition of "Done"?
+- Conventions, standards and guidelines of the Organization.
+- Definition of "Done" of other Scrum Teams working on the same Product.

@@ -1,5 +1,5 @@
 ---
-title: "Scrum Roles | Questions Pack - (PSM I)"
+title: "Scrum Roles | Questions Pack"
 ---
 #### Question 1
 What are the characteristics of a Development Team?
@@ -48,3 +48,14 @@ How does the Scrum Master help the Product Owner?
 The Scrum Master is focused primarily on the Scrum Team and usually does not care about those outside the Scrum Team.
 
 Answer: False.
+
+#### Question 11
+Could the Product Owner and the Scrum Master be a part of the Development Team?
+
+Answer: Yes
+
+#### Question 12
+What are the main qualities the team model in Scrum is designed to optimize?
+- Flexibility
+- Creativity
+- Productivity
