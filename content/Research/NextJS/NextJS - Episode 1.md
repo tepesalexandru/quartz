@@ -51,7 +51,7 @@ Secondly, you will need an IDE. My personal preference is VS Code, which you can
 That's all you need to get started. Let's create the base NextJS project.
 
 #### Creating the base project ~1.7 minutes
-Open up the command prompt in VS Code by pressing **CTRL + ~** on your keyboard and type in
+Open up VS Code and select the folder in which you'd like to create the project, personally, I will create my project here, I will name my folder NextJS, and click Select Folder. After that, go to the command prompt in VS Code by going up here and clicking on Terminal and then New Terminal or by pressing **CTRL + ~** on your keyboard. To create a new NextJS project, we're going to use the following command:
 ```
 npx create-next-app@latest nextjs-movies --typescript
 ```
