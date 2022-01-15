@@ -9,5 +9,5 @@ Here is the current available content (everything is open to the world and avail
 >📚 [Scrum Values](PSM_1/Scrum%20Values.md)
 
 ### Study Notes
->📝 [PSM 1 - Study Notes](PSM_1/PSM%201%20-%20Study%20Notes.md)
+>📝 [PSM I - Study Notes](PSM_1/PSM%20I%20-%20Study%20Notes.md)
 
