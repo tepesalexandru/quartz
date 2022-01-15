@@ -5,5 +5,5 @@ Hi, my name is Tepes Alexandru, I'm 19 and living in Romania. I'm a software eng
 
 ### My certifications
 #### Cloud certifications
-| ![Azure Fundamentals | 200](PngItem_2995052.png) | ![Azure Developer|200](Pasted%20image%2020220115122147.png) 
+| ![Azure Fundamentals | 200](/AzureFundamentalsBadge.png) | ![Azure Developer|200](/AzureDeveloperBadge.png) 
 | - | - 
