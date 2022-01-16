@@ -25,7 +25,7 @@ title: "Week 2 - 2022"
 - [ ] Take notes from the ~~Elon Musk~~ -> **Atomic Habits** audiobook (10m/?m)
 
 ### Personal
-- [ ] Sunday Retrospective (30 minutes)
+- [x] Sunday Retrospective (30 minutes)
 - [x] Private Lessons with Flavius on Monday => 50 RON
 - [x] Private Lessons with Robert on Friday => 50 RON (done on thursday)
 

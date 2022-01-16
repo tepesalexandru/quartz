@@ -76,7 +76,7 @@ Base pillars of 2022:
 - I want to have more output than input in 2022. This means producing more content than I consume. 
 
 Ideas:
-- Manage my week better using Google Calendar.
+- Manage my week better using Google Calendar. ✅
 
 What/How do I want to be at the end of 2022?
 
