@@ -14,7 +14,8 @@ NextJS Episode 1
 ### Health
 #### Jump Rope
 - Week 1 => 30 minutes
-- Week 2 =>
+- Week 2 => 32 minutes
+- Week 3 =>
 
 ---
 

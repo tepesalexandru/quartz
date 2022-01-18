@@ -1,36 +1,33 @@
 ---
 title: "NextJS Research"
 ---
-### Features
-NextJS is a **React Framework**. NextJS aims to have the best developer experience and comes with many built in features such as:
-- Page-based **routing system** (also supports dynamic routes)
-- Pre-rendering, including both SSG (**static generation**) and SSR (**server side rendering**) per page basis.
-- Automatic **code splitting** ⇒ faster load times
-- **Client-side routing** with optimized prefetching.
-- **Fast Refresh** (instant feedback when making edits to react components)
-- API Routes to build API endpoints with **Serverless Functions**
-- **CSS and SASS** support, or any CSS-in-JS library
-- **Typescript** support.
+### Multiple pages
+- create a new page using the integrated file system routing
+- use the Link component to enable client side navigation between pages
+- learn about built-in support for code splitting and prefetching
 
-### Setup
-- Install NodeJS.
-- Have VS Code installed (or any other IDE).
+A page in NextJS is a react component exported from the `pages` directory.
 
-**Create new NextJS project**
-```
-npx create-next-app nextjs-notes --use-npm
-```
-Where `nextjs-notes` is the name of the folder where our app will be created.
+Pages are associated with a route based on their file name. For example:
+- `pages/index.tsx` will be at the `/` route
+- `pages/posts/first-post.tsx` will be at the `/posts/first-post` route
 
-**App idea: note taking app.**
+// to do: tsconfig.json
 
-**Run NextJS Project**
-```
-cd nextjs-notes
-npm run dev
+#### Create a page
+Create any file inside the `pages` directory. The component can have any name, but it must be exported as default.
+
+#### Linking pages
+Normally, in HTML you link pages with an `<a>` tag, but in NextJS you use the `<Link>` component that comes from `next/link`.
+
+It looks like this:
+```Link
+<Link href="/post">
+	Click me!
+</Link>
 ```
 
-Go to localhost:3000 or control click the link from the command prompt. The NextJS server is running. When opening the server, we'll see the starter page of NextJS. Let's make a quick change to see if it works.
+#### Client-side navigation
+The `Link` component enables client-side navigation between two pages in the same NextJS app.
 
-To find the starter page, go in the `pages/index.js` file. Here you can edit anything, and it will be update instantly on the browser without the need to refresh. Be sure to have the development server running while saving the file to view the changes in the browser.
-
+Client side navigation means that the page transition is done via javascript instead of the browser, which leads to faster navigation.
