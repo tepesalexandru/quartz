@@ -12,10 +12,10 @@ Pages are associated with a route based on their file name. For example:
 - `pages/index.tsx` will be at the `/` route
 - `pages/posts/first-post.tsx` will be at the `/posts/first-post` route
 
-// to do: tsconfig.json
-
 #### Create a page
 Create any file inside the `pages` directory. The component can have any name, but it must be exported as default.
+
+typescript is detected automatically after running the server for the first time with a .tsx file.
 
 #### Linking pages
 Normally, in HTML you link pages with an `<a>` tag, but in NextJS you use the `<Link>` component that comes from `next/link`.

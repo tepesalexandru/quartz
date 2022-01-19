@@ -5,6 +5,7 @@ title: "Week 3 - 2022"
 - [ ] Take 7 showers (3/7) 
 - [ ] Jump Rope workout (50 minutes) => 7 minutes per day
 	- Tuesday => 8m
+	- Wednesday => 9m
 
 ### Business - 8h
 - [ ] NextJS Research (30m/2h)
@@ -28,6 +29,7 @@ title: "Week 3 - 2022"
 - [ ] Join Database Lecture (1.5 hours)
 - [x] Join Database Course (1h)
 - [x] Database Homework (1.5h) 🌟
+- [x] Complete Navy Board Project 🌟
 
 ### Personal - 3h
 - [x] Private Lessons on Monday => 50 RON
