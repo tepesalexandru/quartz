@@ -2,8 +2,9 @@
 title: "Week 3 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (2/7) 
+- [ ] Take 7 showers (3/7) 
 - [ ] Jump Rope workout (50 minutes) => 7 minutes per day
+	- Tuesday => 8m
 
 ### Business - 8h
 - [ ] NextJS Research (30m/2h)
@@ -16,10 +17,10 @@ title: "Week 3 - 2022"
 
 ### Knowledge - 10h
 - [ ] Study for the PSM I Certificate (7h)
-	- [ ] Note down the 87 practice questions and answers (4h)
+	- [ ] Note down the 87 practice questions and answers (1h/4h)
 	- [ ] Practice exam twice (2h)
 	- [ ] Free Research (1h)
-- [ ] Listen from the Atomic Habits audiobook during lunch (20m/2h)
+- [ ] Listen from the Atomic Habits audiobook during lunch (1h/2h)
 - [ ] Take notes from Atomic Habits (1h)
 
 ### University - 3h
