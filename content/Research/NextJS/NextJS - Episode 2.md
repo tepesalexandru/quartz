@@ -31,7 +31,7 @@ Routes can also be nested, for example
 
 Let's create our first page. Go over to the `/pages` directory, right click and create a new file. You can name this file anything, but if you want to follow along, I will be naming it `movie.tsx`.
 
-As I've said before, NextJS pages are just React components underneath. Here, we just need to export a component, but it's very important to export it as default, otherwise NextJS will not recognize is it properly. So, let's do just that.
+As I've said before, NextJS pages are just React components underneath. Here, we just need to export a component, but it's very important to export it as default, otherwise NextJS will not recognize it properly. So, let's do just that.
 
 ```movie.tsx
 export default function Movie() {
