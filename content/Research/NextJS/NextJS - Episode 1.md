@@ -76,6 +76,6 @@ The content of the main page are situated in the `pages/index.tsx` file. Here yo
 Be sure to save the file and have the development server running. As you can see, the browser updated instantly. That's Fast Refresh in action. We have instant feedback on any changes we make in our files.
 
 #### Ending ~0.3 minutes
-In the next Episode, we'll take a look at navigation in NextJS and how to have multiple pages in our app, since currently theres only this one. Tune in for the next episode to learn more. See you there!
+In the next episode, we'll take a look at navigation in NextJS and how to have multiple pages in our app, since currently theres only this one. Tune in for the next episode to learn more. See you there!
 
 🎬 *Display outro and link to next episode*
