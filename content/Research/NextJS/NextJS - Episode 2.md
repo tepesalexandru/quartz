@@ -2,9 +2,8 @@
 title: "NextJS - Episode 2"
 ---
 ### NextJS - Episode 2: Routing
-Estimated script reading time **~0 minutes**.
-
-Estimated video time **~0 minutes**.
+Github Repository: 📂 https://github.com/The-Boring-Team/nextjs-movies
+Slides: 🟡 In Progress
 
 #### Introduction
 Hi everyone and welcome to the second episode in this series. In this one, we're going to create a new page in the existing project and implement routing back and forth between the main page and the new page. 
