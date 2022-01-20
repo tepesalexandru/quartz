@@ -1,5 +1,5 @@
 ---
-title: "Scrum Events | Questions Pack"
+title: "Scrum Events"
 ---
 #### Question 1
 What are the Scrum Events?
@@ -92,3 +92,61 @@ The purpose of the Sprint Retrospective is to:
 - Create a plan for implementing improvements to the way the Scrum Team does its work
 - Identify and order the major items that went well and potential improvements
 - Inspect how the last Sprint went with regards to people, relationships, process, and tools
+
+#### Question 17
+What does Cone of Uncertainty show?
+
+Answer: How much is known about the Product over time.
+
+#### Question 18
+What is the result of the Sprint Review?
+
+Answer: A revised Product Backlog that defines the probable Product Backlog items for the next Sprint
+
+#### Question 19
+Is it allowed to skip the Daily Scrum if there is nothing interesting to talk about?
+
+Answer: No
+
+#### Question 20
+What are the time-boxes for the Sprint Review and the Sprint Retrospective?
+
+Answer: 4 and 3 hours respectively
+
+#### Question 21
+What is the input to the Sprint Planning?
+- Past performance of the Development Team
+- Projected capacity of the Development Team during the Sprint
+- The latest product Increment
+- The Product Backlog
+
+#### Question 22
+The structure of the Daily Scrum is well-defined and constant. Every team member should answer the three main questions:
+
+- What did I do yesterday?
+- What will I do today?
+- Do I see any impediment?
+
+Answer: False
+
+#### Question 23
+The Daily Scrum always should take exactly 15 minutes. For example, if your team managed doing it in 5 minutes, you should spend 10 more minutes on some useful team activity like Product Backlog refinement, but not more.
+
+Answer: False
+
+#### Question 24
+How long should the Sprint Planning be?
+
+Answer: Not more than 8 hours
+
+#### Question 25
+Only the Product Owner and the Development Team participate in the Sprint Planning. There is nothing to do for the Scrum Master.
+
+Answer: False
+
+#### Question 26
+What are the formal opportunities to adapt?
+- The Daily Scrum
+- The Sprint Review
+- The Sprint Retrospective
+- The Sprint Planning

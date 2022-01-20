@@ -1,5 +1,5 @@
 ---
-title: "Scrum Artifacts | Questions Pack"
+title: "Scrum Artifacts"
 ---
 #### Question 1
 What is the order of items in the Product Backlog?
@@ -49,3 +49,41 @@ How does Definition of “Done” help the Scrum Team?
 Who is allowed to make changes in the Product Backlog?
 - The Product Owner
 - The Development Team, but with permission of the Product Owner
+
+#### Question 10
+Who is responsible for the Product Backlog?
+
+Answer: The Product Owner
+
+#### Question 11
+Who is responsible for all estimates in the Product Backlog?
+
+Answer: The Development Team
+
+#### Question 12
+All Development Teams working on the same Product should use the same Product Backlog.
+
+Answer: True
+
+#### Question 13
+Imagine the following situation. At the Sprint Retrospective meeting the Scrum Team identified some improvements that can be done. What should the Scrum Team do?
+
+Answer: Make sure the Sprint Backlog for the next Sprint includes at least one high priority process improvement
+
+#### Question 14
+What belongs solely to the Development Team?
+
+Answer: The Sprint Backlog
+
+#### Question 15
+Who is responsible for tracking the total work remaining in the Sprint Backlog to project the likelihood of achieving the Sprint Goal?
+
+#### Question 16
+What is the Increment?
+
+Answer: The sum of all the Product Backlog items completed during the Sprint and the value of the increments of all previous Sprints
+
+#### Question 17
+The Sprint Backlog is created at the Sprint Planning. It is prohibited to add new work into the Sprint Backlog later by the Development Team.
+
+Answer: False

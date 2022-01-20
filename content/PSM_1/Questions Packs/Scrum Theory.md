@@ -1,5 +1,5 @@
 ---
-title: "Scrum Theory | Questions Pack"
+title: "Scrum Theory"
 ---
 #### Question 1
 How frequently should scrum users inspect Scrum artifacts and progress toward a Sprint Goal?
@@ -80,3 +80,21 @@ Where can Scrum be used?
 - Research and identifying of viable markets, technologies, and product capabilities
 - Managing the operation of an organization
 - Development of almost everything we use in our daily lives as individuals and societies
+
+#### Question 15
+What are the three pillars that uphold Scrum?
+- Adaptation
+- Transparency
+- Inspection
+
+#### Question 16
+Definition of “Done” is created during the first Sprint and remains unchanged until the Product release.
+
+Answer: False
+
+#### Question 17
+What comprises Scrum?
+- Roles
+- Events
+- Artifacts
+- Rules

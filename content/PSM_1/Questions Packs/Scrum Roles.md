@@ -1,5 +1,5 @@
 ---
-title: "Scrum Roles | Questions Pack"
+title: "Scrum Roles"
 ---
 #### Question 1
 What are the characteristics of a Development Team?
@@ -91,3 +91,16 @@ What are the three most applicable characteristics of the Product Owner?
 - Product Value Maximizer
 - Lead Facilitator of Key Stakeholder Involvement
 - Product Marketplace Expert
+
+#### Question 19
+How does the Scrum Master serve the Development Team? Select the three most appropriate answers.
+- Helping the Development Team to create high-value products
+- Coaching the Development Team in self-organization and cross-functionality
+- Removing impediments to the Development Team’s progress
+
+#### Question 20
+What are the two essential features a Scrum Team should possess?
+- It should have all competencies needed to accomplish the work without depending on others not part of the team
+- It should choose how best to accomplish their work, rather than being directed by others outside the team
+
+Answer: The Development Team
