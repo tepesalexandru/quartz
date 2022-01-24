@@ -3,6 +3,7 @@ title: "NextJS - Episode 2"
 ---
 ### NextJS - Episode 2: Routing
 Github Repository: 📂 https://github.com/The-Boring-Team/nextjs-movies
+
 To view the slides, click [here](https://www.canva.com/design/DAE2VzDbvkA/SW6FydXgCXEr2ad7EFV7FQ/view?utm_content=DAE2VzDbvkA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
 #### Introduction
