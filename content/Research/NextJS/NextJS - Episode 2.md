@@ -47,7 +47,7 @@ Let's create our first page. Go over to the `/pages` directory, right click and 
 
 As I've said before, NextJS pages are just React components underneath. Here, we just need to export a component, but it's very important to export it as default, otherwise NextJS will not recognize it properly. So, let's do just that.
 
-```movie.tsx
+```tsx
 export default function Movie() {
 
 }
@@ -55,7 +55,7 @@ export default function Movie() {
 
 and for now, let's make it return a simple message, such as "My first movie page!"
 
-```movie.tsx
+```tsx
 export default function Movie() {
  return <div>My first movie page!</div>;
 }
@@ -86,19 +86,19 @@ In our case, let's begin by creating a Link from the `/movie` route back to the 
 
 First off, import the `Link` component
 
-```movie.tsx
+```tsx
 import Link from "next/link";
 ```
 
 then, down here create a Link that goes to the `/` route.
 
-```movie.tsx
+```tsx
 <Link href="/"></Link>
 ```
 
 Inside of it, put the `a` tag and also some text, such as "Homepage".
 
-```movie.tsx
+```tsx
  <Link href="/">
   <a>Homepage</a>
  </Link>
@@ -116,7 +116,7 @@ Go to the `index.js` file, and since we're here let's change the extension to `.
 
 First off, import the Link component and let's put it right after the `h1` tag.
 
-```index.tsx
+```tsx
 <Link href="/movie">
  <a>Movie page</a>
 </Link>
@@ -131,6 +131,6 @@ Save the file, and let's see if it works!
 As you can see, it works like a charm.
 
 #### Ending
-In the next episode we'll take a look at how to change the metadata of a page, such as the title and also how to work with assets, such as images, in an optimized way. 
+In the next episode we'll take a look at how to change the metadata of a page, such as the title, how to work with assets, such as images, in an optimized way and how to load external scripts. 
 
 🎬 *Display outro and link to next episode*
