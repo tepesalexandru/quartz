@@ -3,7 +3,7 @@ title: "NextJS - Episode 2"
 ---
 ### NextJS - Episode 2: Routing
 Github Repository: 📂 https://github.com/The-Boring-Team/nextjs-movies
-Slides: 🟡 In Progress
+To view the slides, click [here](https://www.canva.com/design/DAE2VzDbvkA/SW6FydXgCXEr2ad7EFV7FQ/view?utm_content=DAE2VzDbvkA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
 #### Introduction
 Hi everyone and welcome to the second episode in this series. In this one, we're going to create a new page in the existing project and implement routing back and forth between the main page and the new page. 
@@ -15,9 +15,17 @@ As always, you can follow along coding. For everything presented in the video, t
 #### Creating a new page
 Before we get into how to create a page in NextJS, we must understand what's going on underneath.
 
-🎬 *Display a slider with information about NextJS pages*
+🏞️ *Display NextJS Routing slider*
 
-A page in NextJS is a React component exported from the `pages` directory.
+Routing in NextJS is composed of two major elements: Pages and Links.
+
+A page in NextJS is a React Component exported from the `pages` directory. These are the phisical pages that the user sees when browsing the website.
+
+On the other hand, Links are special React Components that connect pages together and allow the user to navigate between them.
+
+Let's take a look at how NextJS pages are mapped in the browser.
+
+🏞️ *Display NextJS URL Mapping slider*
 
 Pages are associated with a route based on their file name. For example:
 - `pages/car.tsx` will be at the `/car` route
@@ -31,6 +39,8 @@ This is because index is a special keyword in NextJS, noting that the specified 
 Routes can also be nested, for example
 - `pages/cars/tesla.tsx` will be at the `/cars/tesla` route
 - `pages/movies/iron-man.tsx` will be at the `/movies/iron-man` route
+
+🏞️ *Close sliders*
 
 Let's create our first page. Go over to the `/pages` directory, right click and create a new file. You can name this file anything, but if you want to follow along, I will be naming it `movie.tsx`.
 

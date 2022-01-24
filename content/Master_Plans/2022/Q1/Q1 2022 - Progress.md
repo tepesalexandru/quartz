@@ -6,8 +6,12 @@ title: "Q1 Progress - 2022"
 - Scrum Values (5 article series)
 
 #### Youtube
-NextJS Episode 1
+
+#### NextJS 
+Episode 1
 	Research, Script & Sliders, Voice Over
+Episode 2
+	Research, Script
 
 ---
 
@@ -20,6 +24,6 @@ NextJS Episode 1
 ---
 
 ### Personal
-Total from Private Lessons = **200 RON**
-- Private Lessons with Flavius x2 => 50 RON x 2 = **100 RON**
-- Private Lessons with Robert x2 => 50 RON x 2 = **100 RON**
+Total from Private Lessons = **300 RON**
+- Private Lessons with Flavius x2 => 50 RON x 3 = **150 RON**
+- Private Lessons with Robert x2 => 50 RON x 3 = **150 RON**
