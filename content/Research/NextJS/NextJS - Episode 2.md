@@ -61,19 +61,11 @@ export default function Movie() {
 }
 ```
 
-This is all you need, but before we see if it works, we need to install the npm packages necessary to run the project with the typescript file (the one ending in .tsx). So, let's go to the command prompt, and type in the following command:
-
-```
-npm install --save-dev typescript @types/react
-```
-
-After the packages have been installed, let's run the server by typing
+Let's run the server by typing
 
 ```
 npm run dev
 ```
-
-Something interesting has happened. NextJS detected that we're using typescript and automatically created extra files to integrate with it, such as the `tsconfig.json` file.
 
 We can see the new page we've created by going to the `/movie` route in the browser, so let's type that in. And there we go, the message "My first movie page!" appears. Fast refresh also still works, and you can see that by changing the message inside vscode.
 
@@ -112,9 +104,7 @@ As you can see again.
 
 Awesome. Now, let's do the same process by linking the Homepage to the `movie` page
 
-Go to the `index.js` file, and since we're here let's change the extension to `.tsx` so it can use typescript.
-
-First off, import the Link component and let's put it right after the `h1` tag.
+Go to `index.tsx`  and import the Link component. Let's put ours right after the `h1` tag.
 
 ```tsx
 <Link href="/movie">

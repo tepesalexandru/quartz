@@ -2,8 +2,9 @@
 title: "Week 4 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (0/7) 
+- [ ] Take 7 showers (2/7) 
 - [ ] Jump Rope workout (50 minutes) => 7 minutes per day
+	- Monday => 4m
 
 ### Business - 9h
 - [x] NextJS Episode 2 Sliders (1h)
@@ -11,8 +12,8 @@ title: "Week 4 - 2022"
 - [x] NextJS Episode 3 Research (1h)
 - [ ] NextJS Episode 3 Script (1h)
 - [ ] Publish 2 Medium Articles (2h)
-- [ ] Docker Research (1h)
-- [ ] Solidity Research (1h)
+- [x] Docker Research (1h)
+- [x] Solidity Research (1h)
 - [ ] xUnit Research (1h)
 
 ### Knowledge - 10h
@@ -23,7 +24,7 @@ title: "Week 4 - 2022"
 		- 35/40 (87.5%) ✅
 		- 39/40 (97.5%) ✅
 		- 75/80 (93.75%) ✅
-- [ ] Finish listening to the Atomic Habits audiobook during lunch (4 hours)
+- [ ] Finish listening to the Atomic Habits audiobook during lunch (20m/4 hours)
 - [ ] Take notes from Atomic Habits
 
 ### Personal
