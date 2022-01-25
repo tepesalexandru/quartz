@@ -8,7 +8,7 @@ title: "Week 4 - 2022"
 
 ### Business - 9h
 - [x] NextJS Episode 2 Sliders (1h)
-- [ ] NextJS Episode 2 Voice Over (1h)
+- [x] NextJS Episode 2 Voice Over (1h)
 - [x] NextJS Episode 3 Research (1h)
 - [ ] NextJS Episode 3 Script (1h)
 - [ ] Publish 2 Medium Articles (2h)
