@@ -18,7 +18,7 @@ title: "Week 4 - 2022"
 
 ### Knowledge - 10h
 - [ ] Study for the PSM I Certificate
-	- [ ] Study the Scrum Guide (2h)
+	- [ ] Study the Scrum Guide (1h/2h)
 	- [ ] Free Scrum Research (1h)
 	- [ ] Practice 10 Exams (3/10)
 		- 35/40 (87.5%) ✅
@@ -30,5 +30,5 @@ title: "Week 4 - 2022"
 ### Personal
 - [ ] Sunday Retrospective (30 minutes)
 - [ ] End of month Anchor Session (30 minutes)
-- [ ] Private Lessons on Monday => 50 RON
+- [x] Private Lessons on Monday => 50 RON
 - [ ] Private Lessons on Friday => 50 RON
