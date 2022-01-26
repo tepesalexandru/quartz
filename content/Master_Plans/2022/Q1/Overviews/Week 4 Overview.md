@@ -5,6 +5,7 @@ title: "Week 4 - 2022"
 - [ ] Take 7 showers (2/7) 
 - [ ] Jump Rope workout (50 minutes) => 7 minutes per day
 	- Monday => 4m
+	- Wednesday => 4m
 
 ### Business - 9h
 - [x] NextJS Episode 2 Sliders (1h)
@@ -19,11 +20,13 @@ title: "Week 4 - 2022"
 ### Knowledge - 10h
 - [ ] Study for the PSM I Certificate
 	- [ ] Study the Scrum Guide (1h/2h)
-	- [ ] Free Scrum Research (1h)
-	- [ ] Practice 10 Exams (3/10)
+	- [ ] Free Scrum Research (30m/1h)
+	- [ ] Practice 10 Exams (5/10)
 		- 35/40 (87.5%) ✅
 		- 39/40 (97.5%) ✅
 		- 75/80 (93.75%) ✅
+		- 28/30 (93.3%) ✅
+		- 29/30 (96.7%) ✅
 - [ ] Finish listening to the Atomic Habits audiobook during lunch (20m/4 hours)
 - [ ] Take notes from Atomic Habits
 

@@ -11,7 +11,9 @@ title: "Q1 Progress - 2022"
 Episode 1
 	Research, Script & Sliders, Voice Over
 Episode 2
-	Research, Script
+	Research, Script & Sliders, Voice Over
+Episode 3
+	Research
 
 ---
 
@@ -19,7 +21,7 @@ Episode 2
 #### Jump Rope
 - Week 1 => 30 minutes
 - Week 2 => 32 minutes
-- Week 3 =>
+- Week 3 => 24 minutes
 
 ---
 
