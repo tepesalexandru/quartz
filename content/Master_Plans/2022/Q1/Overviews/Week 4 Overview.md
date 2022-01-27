@@ -27,7 +27,7 @@ title: "Week 4 - 2022"
 		- 75/80 (93.75%) ✅
 		- 28/30 (93.3%) ✅
 		- 29/30 (96.7%) ✅
-- [ ] Finish listening to the Atomic Habits audiobook during lunch (20m/4 hours)
+- [ ] Finish listening to the Atomic Habits audiobook during lunch (37m/4 hours)
 - [ ] Take notes from Atomic Habits
 
 ### Personal
