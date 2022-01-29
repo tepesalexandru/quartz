@@ -2,7 +2,7 @@
 title: "Week 4 - 2022"
 ---
 ### Health
-- [ ] Take 7 showers (2/7) 
+- [ ] Take 7 showers (4/7) 
 - [ ] Jump Rope workout (50 minutes) => 7 minutes per day
 	- Monday => 4m
 	- Wednesday => 4m
@@ -27,11 +27,11 @@ title: "Week 4 - 2022"
 		- 75/80 (93.75%) ✅
 		- 28/30 (93.3%) ✅
 		- 29/30 (96.7%) ✅
-- [ ] Finish listening to the Atomic Habits audiobook during lunch (37m/4 hours)
+- [ ] Finish listening to the Atomic Habits audiobook during lunch (1h 37m/4 hours)
 - [ ] Take notes from Atomic Habits
 
 ### Personal
 - [ ] Sunday Retrospective (30 minutes)
 - [ ] End of month Anchor Session (30 minutes)
 - [x] Private Lessons on Monday => 50 RON
-- [ ] Private Lessons on Friday => 50 RON
+- [ ] Private Lessons on Friday => 50 RON ❌
