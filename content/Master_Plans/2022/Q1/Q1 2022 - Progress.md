@@ -13,7 +13,7 @@ Episode 1
 Episode 2
 	Research, Script & Sliders, Voice Over
 Episode 3
-	Research
+	Research, Script
 
 ---
 
@@ -22,6 +22,7 @@ Episode 3
 - Week 1 => 30 minutes
 - Week 2 => 32 minutes
 - Week 3 => 24 minutes
+- Week 4 => 8 minutes
 
 ---
 

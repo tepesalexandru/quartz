@@ -181,7 +181,7 @@ Awesome. Before we go any further let's quickly recap what you've learned so far
 
 In the first episode, you've learned how to setup a new NextJS project.
 
-In the second episode, you've learned how to create create new pages and how to navigate from one to the other.
+In the second episode, you've learned how to create create new pages and how to navigate between them.
 
 And in this episode, you've learned how to work with Images, Metadata and Third-Party Scripts.
 

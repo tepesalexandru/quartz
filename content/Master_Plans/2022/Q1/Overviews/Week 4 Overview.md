@@ -11,11 +11,11 @@ title: "Week 4 - 2022"
 - [x] NextJS Episode 2 Sliders (1h)
 - [x] NextJS Episode 2 Voice Over (1h)
 - [x] NextJS Episode 3 Research (1h)
-- [ ] NextJS Episode 3 Script (1h)
+- [x] NextJS Episode 3 Script (1h)
 - [ ] Publish 2 Medium Articles (2h)
 - [x] Docker Research (1h)
 - [x] Solidity Research (1h)
-- [ ] xUnit Research (1h)
+- [x] xUnit Research (1h)
 
 ### Knowledge - 10h
 - [ ] Study for the PSM I Certificate
