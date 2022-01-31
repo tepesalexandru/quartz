@@ -4,7 +4,7 @@ title: "NextJS - Episode 3"
 ### NextJS - Episode 3: Assets, Metadata & Scripts
 Episode 3 full code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-3)
 
-Slides: 🟡 In progress
+Slides: [here](https://www.canva.com/design/DAE2kYMGntE/bgFHjKPmktCeX2z12Ve0LQ/view?utm_content=DAE2kYMGntE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)🟡 In progress
 
 #### Introduction
 🏞️ *Display NextJS EP 3 Initial Slider*
@@ -31,7 +31,7 @@ However, this comes with many downsides you have to take care of, such as:
 - Optimizing your images with a third-party tool or library
 - Only loading images when they enter the viewport
 
-NextJS lifts removes thirs hurdle by offering a custom React component that takes care of all of those, the `Image` component.
+NextJS removes this hurdle by offering a custom React component that takes care of all of those, the `Image` component.
 
 🎬 *Close slides*
 
@@ -82,6 +82,7 @@ Let's see how to work with Metadata.
 
 #### Metadata
 🏞️ *Display metadata slider*
+
 Metadata refers to the information related to a page. This includes things such as the title of the page, the favicon and many more. In regular HTML, the `head` tag would be used for these things.
 
 NextJS offers a special component for this, which can be imported from `next/head`, and is used to modify anything normally present in the head tag.
@@ -133,6 +134,7 @@ Lastly, let's take a look at Third-Party Scripts.
 
 #### Third-Party JS
 🏞️ *Display third-party scripts slider*
+
 What I actually mean by third-party is a script that was not written by us, but we need it in our application. An example would be us having to use the Facebook SDK. To do that, we'd need to import an external javascript file in our app. NextJS enables us to do that using the `Script` component, exported from `next/script`.
 
 🎬 *Close slides*
@@ -177,6 +179,7 @@ We can see that the sdk.js has loaded, and that in the console tab the message a
 
 #### Recap
 🏞️ *Display recap slider*
+
 Awesome. Before we go any further let's quickly recap what you've learned so far.
 
 In the first episode, you've learned how to setup a new NextJS project.
@@ -187,6 +190,7 @@ And in this episode, you've learned how to work with Images, Metadata and Third-
 
 #### Ending
 🏞️ *Display next episode slider*
+
 In the next episode, we'll take a deeper look at pre-rendering and data fetching in NextJS. See you soon!
 
 🎬 *Display outro and link to next episode*
