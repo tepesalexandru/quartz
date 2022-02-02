@@ -135,11 +135,13 @@ Lastly, let's take a look at Third-Party Scripts.
 #### Third-Party JS
 🏞️ *Display third-party scripts slider*
 
-What I actually mean by third-party is a script that was not written by us, but we need it in our application. An example would be us having to use the Facebook SDK. To do that, we'd need to import an external javascript file in our app. NextJS enables us to do that using the `Script` component, exported from `next/script`.
+What I actually mean by third-party is a script that was not written by us, but we need it in our application. An example would be us having to use the Facebook SDK. This will be just an example, and I will delete it later since we don't actually need it. 
 
 🎬 *Close slides*
 
-Let's take a quick look how the Facebook SDK would be imported in the app.
+So, to use the SDK, we'd need to import an external javascript file in our app. NextJS enables us to do that using the `Script` component, exported from `next/script`.
+
+Let's import it in the `movie` page.
 
 First off, go to `movie.tsx` and import the `Script` component.
 
@@ -147,7 +149,7 @@ First off, go to `movie.tsx` and import the `Script` component.
 import Script from 'next/script'
 ```
 
-After that, right after the `Head` tag, open the `Script` tag and as the source give it the link to the Facebook SKD.
+Then, right after the `Head` tag, open the `Script` tag with the source of the Facebook SKD, in this case, it's this link right here..
 
 ```tsx
 <Script
@@ -173,20 +175,22 @@ Let's go to the browser, open up the Network tab and hit refresh.
 
 🎬 *Follow previous line*
 
-We can see that the sdk.js has loaded, and that in the console tab the message appears.
+We can see that the sdk.js has loaded, and that in the console tab the message appears. 
 
 🎬 *Go to the console tab*
+
+The Facebook SDK populates the `window.FB` object, and you can see that by typing in `window.FB` in the console and hitting enter. 
+
+🎬 *Follow previous line*
+
+As you can see, there is a lot of stuff here provided by the SDK.
 
 #### Recap
 🏞️ *Display recap slider*
 
 Awesome. Before we go any further let's quickly recap what you've learned so far.
 
-In the first episode, you've learned how to setup a new NextJS project.
-
-In the second episode, you've learned how to create create new pages and how to navigate between them.
-
-And in this episode, you've learned how to work with Images, Metadata and Third-Party Scripts.
+You've learned how to setup a new NextJS project, how to create create new pages and how to navigate between them, and also how to work with images, metadata and third-party scripts.
 
 #### Ending
 🏞️ *Display next episode slider*
