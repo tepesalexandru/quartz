@@ -17,6 +17,8 @@ title: "Week 5 - 2022"
 ### Knowledge
 - [ ] Complete 10 PSM I Practice Tests with 100% (4h)
 	- 29/30 (96.7%) ❌
+	- 30/30 (100%) ✅
+	- 74/80 (94.74%) ❌
 - [ ] Read the Scrum Guide again (1h)
 - [ ] Read information on Scrum from their website (1h)
 - [ ] Obtain the Professional Scrum Master I Certification
