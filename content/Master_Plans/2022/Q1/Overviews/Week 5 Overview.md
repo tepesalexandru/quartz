@@ -11,7 +11,7 @@ title: "Week 5 - 2022"
 ### Business
 - [x] NextJS Episode 3 Sliders (1h/1 h)
 - [x] NextJS Episode 3 Voice Over (1h)
-- [ ] NextJS Episode 4 Research (1h)
+- [x] NextJS Episode 4 Research (1h)
 - [ ] NextJS Episode 4 Script (1h)
 
 ### Knowledge
