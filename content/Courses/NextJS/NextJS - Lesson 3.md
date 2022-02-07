@@ -1,7 +1,7 @@
 ---
 title: "NextJS - Lesson 3"
 ---
-### NextJS - Episode 3: Assets, Metadata & Scripts
+### NextJS - Lesson 3: Assets, Metadata & Scripts
 Episode 3 full code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-3)
 
 Slides: [here](https://www.canva.com/design/DAE2kYMGntE/bgFHjKPmktCeX2z12Ve0LQ/view?utm_content=DAE2kYMGntE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)🟡 In progress
