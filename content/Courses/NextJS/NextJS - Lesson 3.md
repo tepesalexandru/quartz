@@ -1,5 +1,5 @@
 ---
-title: "NextJS - Episode 3"
+title: "NextJS - Lesson 3"
 ---
 ### NextJS - Episode 3: Assets, Metadata & Scripts
 Episode 3 full code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-3)
