@@ -4,8 +4,7 @@ title: "NextJS - Lesson 3: Assets, Metadata & Scripts"
 Lesson 3 complete code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-3)
 
 #### Introduction
-
-Hi everyone and welcome to the third episode in this series. Now that we have a basic understanding of routing in NextJS, let's explore other interesting topics. In this episode, I'm going to cover how to work with assets, how to modify the metadata of a page, and how to load external scripts.
+Hi everyone and welcome to the third lesson. Now that we have a basic understanding of routing in NextJS, let's explore other interesting topics. In this episode, I'm going to cover how to work with assets, how to modify the metadata of a page, and how to load external scripts.
 
 #### Assets
 ![Assets](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode3/2.png)
