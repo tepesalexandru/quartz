@@ -1,7 +1,6 @@
 ---
-title: "NextJS - Lesson 2"
+title: "NextJS - Lesson 2: Routing"
 ---
-### NextJS - Lesson 2: Routing
 Lesson 2 complete code: 📂 https://github.com/The-Boring-Team/nextjs-movies
 
 #### Introduction
@@ -12,7 +11,7 @@ As always, you can follow along coding. For everything presented in the video, t
 #### Creating a new page
 Before we get into how to create a page in NextJS, we must understand what's going on underneath.
 
-🏞️ *Display NextJS Routing slider*
+![Image2](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode2/2.png)
 
 Routing in NextJS is composed of two major elements: Pages and Links.
 
@@ -22,7 +21,7 @@ On the other hand, Links are special React Components that connect pages togethe
 
 Let's take a look at how NextJS pages are mapped in the browser.
 
-🏞️ *Display NextJS URL Mapping slider*
+![Image3](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode2/3.png)
 
 Pages are associated with a route based on their file name. For example:
 - `pages/car.tsx` will be at the `/car` route
@@ -37,9 +36,9 @@ Routes can also be nested, for example
 - `pages/cars/tesla.tsx` will be at the `/cars/tesla` route
 - `pages/movies/iron-man.tsx` will be at the `/movies/iron-man` route
 
-🏞️ *Close sliders*
+Let's create our first page. 
 
-Let's create our first page. Go over to the `/pages` directory, right click and create a new file. You can name this file anything, but if you want to follow along, I will be naming it `movie.tsx`.
+Go over to the `/pages` directory, right click and create a new file. You can name this file anything, but if you want to follow along, I will be naming it `movie.tsx`.
 
 As I've said before, NextJS pages are just React components underneath. Here, we just need to export a component, but it's very important to export it as default, otherwise NextJS will not recognize it properly. So, let's do just that.
 
@@ -117,6 +116,6 @@ Save the file, and let's see if it works!
 As you can see, it works like a charm.
 
 #### Ending
-In the next episode we'll take a look at how to change the metadata of a page, such as the title, how to work with assets, such as images, in an optimized way and how to load external scripts. 
+In the next lesson we'll take a look at how to change the metadata of a page, such as the title, how to work with assets, such as images, in an optimized way and how to load external scripts. 
 
-🎬 *Display outro and link to next episode*
+#### [NextJS - Lesson 3: Assets, Metadata & Scripts](Courses/NextJS/NextJS%20-%20Lesson%203.md)

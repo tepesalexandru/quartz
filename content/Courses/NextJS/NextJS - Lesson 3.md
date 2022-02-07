@@ -1,22 +1,18 @@
 ---
-title: "NextJS - Lesson 3"
+title: "NextJS - Lesson 3: Assets, Metadata & Scripts"
 ---
-### NextJS - Lesson 3: Assets, Metadata & Scripts
 Lesson 3 complete code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-3)
 
 #### Introduction
-🏞️ *Display NextJS EP 3 Initial Slider*
 
 Hi everyone and welcome to the third episode in this series. Now that we have a basic understanding of routing in NextJS, let's explore other interesting topics. In this episode, I'm going to cover how to work with assets, how to modify the metadata of a page, and how to load external scripts.
 
 #### Assets
-🏞️ *Display Assets slider*
+![Assets](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode3/2.png)
 
 Let's start off with assets. All files that are not sources of code for your application can be considered assets. A few examples are images, videos, and SVGs.
 
 All asset files in NextJS must be put inside of the `public` directory. This folder can also contain other useful data, such as the `favicon.ico`, `robots.txt`, Google Site Verification and any other static file. For this reason, files such as images are usually stored in an `images` folder inside the `public` directory.
-
-🏞️ *Display HTML img tag slider*
 
 With regular HTML, you'd display an image in the browser in this way:
 
@@ -31,13 +27,11 @@ However, this comes with many downsides you have to take care of, such as:
 
 NextJS removes this hurdle by offering a custom React component that takes care of all of those, the `Image` component.
 
-🎬 *Close slides*
-
 Let's see a practical example. I'm going to display a simple profile picture using the Image component.
 
 First off, I'm going to create the `images` folder inside the `public` directory. I have prepared a .png file for this, but you can use any other image. 
 
-🎬 *Drag profile.png file inside the `images` folder*
+🎬 *Drag your .png file inside the `images` folder*
 
 After we've done that, let's go to `movie.tsx` and import the Image component, which is exported from `next/image`.
 
@@ -79,13 +73,11 @@ As you see, it's right here.
 Let's see how to work with Metadata.
 
 #### Metadata
-🏞️ *Display metadata slider*
+![Metadata](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode3/4.png)
 
 Metadata refers to the information related to a page. This includes things such as the title of the page, the favicon and many more. In regular HTML, the `head` tag would be used for these things.
 
 NextJS offers a special component for this, which can be imported from `next/head`, and is used to modify anything normally present in the head tag.
-
-🎬 *Close slides*
 
 For example, let's change the title of the page `movie`.
 
@@ -131,11 +123,9 @@ This is because in the `index.tsx` file, another `Head` tag is defined with othe
 Lastly, let's take a look at Third-Party Scripts.
 
 #### Third-Party JS
-🏞️ *Display third-party scripts slider*
+![Scripts](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode3/5.png)
 
 What I actually mean by third-party is a script that was not written by us, but we need it in our application. An example would be us having to use the Facebook SDK. This will be just an example, and I will delete it later since we don't actually need it. 
-
-🎬 *Close slides*
 
 So, to use the SDK, we'd need to import an external javascript file in our app. NextJS enables us to do that using the `Script` component, exported from `next/script`.
 
@@ -171,28 +161,18 @@ For example, I'll be putting a strategy of `lazyOnLoad`, which tells NextJS to o
 
 Let's go to the browser, open up the Network tab and hit refresh. 
 
-🎬 *Follow previous line*
-
 We can see that the sdk.js has loaded, and that in the console tab the message appears. 
 
-🎬 *Go to the console tab*
-
 The Facebook SDK populates the `window.FB` object, and you can see that by typing in `window.FB` in the console and hitting enter. 
-
-🎬 *Follow previous line*
 
 As you can see, there is a lot of stuff here provided by the SDK.
 
 #### Recap
-🏞️ *Display recap slider*
-
 Awesome. Before we go any further let's quickly recap what you've learned so far.
 
 You've learned how to setup a new NextJS project, how to create create new pages and how to navigate between them, and also how to work with images, metadata and third-party scripts.
 
 #### Ending
-🏞️ *Display next episode slider*
-
 In the next episode, we'll take a deeper look at pre-rendering and data fetching in NextJS. See you soon!
 
-🎬 *Display outro and link to next episode*
+#### [NextJS - Lesson 4](Courses/NextJS/NextJS%20-%20Lesson%204.md)
