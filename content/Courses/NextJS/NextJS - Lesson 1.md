@@ -11,8 +11,6 @@ Hi everyone and welcome to the first lesson. I'll be covering everything you nee
 #### What is NextJS?
 Before I dive any deeper, let's take some time to look at what NextJS is and what it can offer.
 
-![Image2](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode1/2.png)
-
 NextJS is a **React Framework** that aims to have the best developer experience, and also comes with many built in features, such as:
 - Page based routing
 - Pre-rendering, including both Static Generation and Server Side Rendering (more on that later)
@@ -20,6 +18,8 @@ NextJS is a **React Framework** that aims to have the best developer experience,
 - Fast Refresh.
 - Typescript support.
 - And many more.
+
+![Image2](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode1/2.png)
 
 Pre-rendering is one of the key features that make NextJS truly a powerful framework, let's see what pre-rendering is and what it does under the hood.
 
@@ -79,4 +79,4 @@ As you can see, the browser updated instantly. That's Fast Refresh in action. We
 #### Ending
 In the next lesson, we'll take a look at navigation in NextJS and how to have multiple pages in our app, since currently theres only this one. Tune in for the next episode to learn more. See you there!
 
-[NextJS - Lesson 2: Routing](Courses/NextJS/NextJS%20-%20Lesson%202.md)
+#### [NextJS - Lesson 2: Routing](Courses/NextJS/NextJS%20-%20Lesson%202.md)

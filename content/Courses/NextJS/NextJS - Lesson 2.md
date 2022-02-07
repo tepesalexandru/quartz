@@ -2,14 +2,12 @@
 title: "NextJS - Lesson 2"
 ---
 ### NextJS - Lesson 2: Routing
-Github Repository: 📂 https://github.com/The-Boring-Team/nextjs-movies
+Lesson 2 complete code: 📂 https://github.com/The-Boring-Team/nextjs-movies
 
 #### Introduction
-Hi everyone and welcome to the second episode in this series. In this one, we're going to create a new page in the existing project and implement routing back and forth between the main page and the new page. 
+Hi everyone and welcome to the second lesson. In this one, we're going to create a new page in the existing project and implement routing back and forth between the main page and the new page. 
 
 As always, you can follow along coding. For everything presented in the video, there is a github repository with the full code. You can view the code for each episode by checking out that specific branch.
-
-🎬 *Show github repository and branches*
 
 #### Creating a new page
 Before we get into how to create a page in NextJS, we must understand what's going on underneath.
