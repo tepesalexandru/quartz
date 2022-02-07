@@ -2,6 +2,8 @@
 title: "NextJS - Episode 1: Introduction"
 ---
 ### NextJS - Lesson 1: Introduction
+If you prefer the video version of this lesson, click here: [Youtube Video](https://www.youtube.com/watch?v=uAXPlgB0YgM).
+
 ![Image1](https://pomodoroapi44ff78.blob.core.windows.net/obsidian-courses/Courses/NextJS/Episode1/1.png)
 
 Hi everyone and welcome to the first lesson. I'll be covering everything you need to know to get started with NextJS and create your own projects. This is a hands-on course, where you can follow along coding. We'll be building a simple Movie app while covering the core concepts of NextJS, and you will be able to publish it at the end of the course.

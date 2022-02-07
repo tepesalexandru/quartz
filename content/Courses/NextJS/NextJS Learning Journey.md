@@ -1,7 +1,7 @@
 ---
 title: "NextJS Learning Journey"
 ---
-I've been curious for quite a while to learn more about NextJS, so I'm doing that! I'm researching the topic and creating scripts for videos talking about NextJS while building a project. Click the notes down below to view what I've made so far.
+I've been curious for quite a while to learn more about NextJS, so I'm doing that! I'm researching the topic and creating written lessons/videos talking about NextJS while building a project. Click the notes down below to view what I've made so far.
 
 ### Basics
 #### [Lesson 1: Introduction](Courses/NextJS/NextJS%20-%20Lesson%201.md)
