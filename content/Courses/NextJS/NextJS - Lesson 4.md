@@ -1,10 +1,14 @@
 ---
 title: "NextJS - Lesson 4: Pre-Rendering & Data Fetching"
 ---
-Work in progress
+🏞️ Episode 4 slider
 
 #### Introduction
-Hi everyone and welcome to the fourth lesson. After understanding the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. By the end of this lesson, you will have learned:
+Hi everyone and welcome to the fourth lesson. After understanding the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. 
+
+🏞️ Introduction slider
+
+By the end of this lesson, you will have learned:
 - Pre-rendering in NextJS
 - How Static Site Generation (SSG) works behind the scenes
 - How to import external data using `getStaticProps`
@@ -28,4 +32,13 @@ But, you may run in the case that your page **does** need to fetch external data
 How this process differs from SSG without data, is that all pages that require data fetching to be built, will fetch the needed information, insert it into the HTML file and store the result. 
 
 This process will happen only once, when the application is built for production.
+
+Let's see how this would look in practice.
+
+### The getStaticProps function
+🏞️ getStaticProps function
+
+To fetch data for a static page when it is built, the `getStaticProps` function is used. The skeleton of the function looks like this.
+
+### Next up
 
