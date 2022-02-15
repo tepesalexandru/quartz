@@ -8,6 +8,9 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 #### [Lesson 2: Routing](Courses/NextJS/NextJS%20-%20Lesson%202.md)
 #### [Lesson 3: Assets, Metadata & Third-Party Scripts](Courses/NextJS/NextJS%20-%20Lesson%203.md)
 
+### Intermediate
+#### [Lesson 4: Pre-Rendering & Data Fetching](Courses/NextJS/NextJS%20-%20Lesson%204.md)
+
 #### Coming up
-#### Lesson 4: Pre-rendering & data fetching
+#### Lesson 5: Dynamic Routes
 

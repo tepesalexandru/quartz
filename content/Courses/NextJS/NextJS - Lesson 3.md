@@ -174,4 +174,4 @@ You've learned how to setup a new NextJS project, how to create create new pages
 #### Ending
 In the next lesson, we'll take a deeper look at pre-rendering and data fetching in NextJS. See you soon!
 
-#### [NextJS - Lesson 4](Courses/NextJS/NextJS%20-%20Lesson%204.md)
+#### [NextJS - Lesson 4: Pre-Rendering & Data-Fetching](Courses/NextJS/NextJS%20-%20Lesson%204.md)
