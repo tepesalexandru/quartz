@@ -108,35 +108,12 @@ In the base directory, create a new folder named `data` and inside of it, create
 }
 ```
 
-This will be the data we want to fetch and pass to the `Movie` component. To access this data, I'm going to create my own custom function that reads the contents of this file. For this I'm going to create another folder named `lib` , and inside of it a file named `getMovieData.tsx`.
-
-```tsx
-import fs from "fs";
-import path from "path";
-
-const dataDirectory = path.join(process.cwd(), "data");
-
-export function getMovieData(): MovieProps {
-  const filePath = path.join(dataDirectory, "movie.json");
-  const fileContents = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(fileContents);
-}
-
-export type MovieProps = {
- title: string;
- releaseYear: number;
-}
-```
-
-I won't go into detail about each line of code. In short, what this function does is that it finds the `movie.json` file in the file system, reads the content and returns it.
-
-I've also added a `type` for the Movie in order to get the benefits of typescript.
-
-Great, now we can use this in the `getStaticProps` function to pass the object to the component. Let's go to `movie.tsx` , and fetch the data.
+This will be the data we want to fetch and pass to the `Movie` component. To access this data, I'm going to use the native `fetch` function and transform the response to JSON format:
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const movieData = getMovieData();
+  const req = await fetch("http://localhost:3000/movie.json");
+  const movieData = await req.json();
 }
 ```
 
@@ -144,7 +121,8 @@ And lastly, we have to pass it as props to the component.
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const movieData = getMovieData();
+  const req = await fetch("http://localhost:3000/movie.json");
+  const movieData = await req.json();
 
   return {
     props: {
