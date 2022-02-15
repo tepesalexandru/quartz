@@ -1,6 +1,8 @@
 ---
 title: "NextJS - Lesson 4: Pre-Rendering & Data Fetching"
 ---
+Lesson 4 complete code: [Github Repo](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-4)
+
 🏞️ Episode 4 slider
 
 #### Introduction
