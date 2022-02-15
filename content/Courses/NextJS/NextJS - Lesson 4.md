@@ -41,7 +41,7 @@ Let's see how this would look in practice.
 To fetch data for a static page when it is built, the `getStaticProps` function is used. The skeleton of the function looks like this.
 
 ```tsx
-export default function Home(props) { ... }
+export default function Home(props: Props) { ... }
 
 export async function getStaticProps(): GetStaticProps {
   
