@@ -43,17 +43,17 @@ To fetch data for a static page when it is built, the `getStaticProps` function 
 ```tsx
 export default function Home(props) { ... }
 
-export async function getStaticProps() {
+export async function getStaticProps(): GetStaticProps {
   
 }
 ```
 
-It's usually placed in the same file as the component we want to fetch data for. In this example, it's for a component named Home. 
+It's usually placed in the same file as the component we want to fetch data for. In this example, it's for a component named Home. I've also added the `GetStaticProps` return type in order to make it type-safe.
 
 So far, the function is empty. But, inside of it, we can fetch data coming from many sources, such as the file system, an API, a database, and so on. An example would look like this
 
 ```tsx
-export async function getStaticProps() {
+export async function getStaticProps(): GetStaticProps {
   const data = await fetchData();
 }
 ```
@@ -63,7 +63,7 @@ We can use the `await` keyword to wait for the result since the function is asyn
 Lastly, the `getStaticProps` function, returns an object containing the props passed to the component.
 
 ```tsx
-export async function getStaticProps() {
+export async function getStaticProps(): GetStaticProps {
   const data = await fetchData();
 
   return {
@@ -90,7 +90,7 @@ Let's go to `movie.tsx`, and under the component, write the empty function.
 ```tsx
 export default function Movie() { ... }
 
-export async function getStaticProps() {
+export async function getStaticProps(): GetStaticProps {
 
 }
 ```
@@ -106,7 +106,85 @@ In the base directory, create a new folder named `data` and inside of it, create
 }
 ```
 
-This will be the data we want to fetch and pass to the `Movie` component.
+This will be the data we want to fetch and pass to the `Movie` component. To access this data, I'm going to create my own custom function that reads the contents of this file. For this I'm going to create another folder named `lib` , and inside of it a file named `getMovieData.tsx`.
+
+```tsx
+import fs from "fs";
+import path from "path";
+
+const dataDirectory = path.join(process.cwd(), "data");
+
+export function getMovieData(): MovieProps {
+  const filePath = path.join(dataDirectory, "movie.json");
+  const fileContents = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(fileContents);
+}
+
+export type MovieProps = {
+ title: string;
+ releaseYear: number;
+}
+```
+
+I won't go into detail about each line of code. In short, what this function does is that it finds the `movie.json` file in the file system, reads the content and returns it.
+
+I've also added a `type` for the Movie in order to get the benefits of typescript.
+
+Great, now we can use this in the `getStaticProps` function to pass the object to the component. Let's go to `movie.tsx` , and fetch the data.
+
+```tsx
+export async function getStaticProps(): GetStaticProps {
+  const movieData = getMovieData();
+}
+```
+
+And lastly, we have to pass it as props to the component.
+
+```tsx
+export async function getStaticProps(): GetStaticProps {
+  const movieData = getMovieData();
+
+  return {
+    props: {
+      movieData,
+    },
+  };
+}
+```
+
+Awesome, now the data is going towards the `Movie` component. What we have to do now is accept the incoming data.
+
+For that, above the `Movie` component, declare a new type for the props:
+
+```tsx
+type Props = {
+  movieData: MovieProps;
+}
+```
+
+And then deconstruct the prop in the parameter of the function:
+
+```tsx
+export default function Movie({ movieData }: Props)
+```
+
+And that's it! Now we have access to the movie prop inside of the component. Let's display the movie title and its release year.
+
+```tsx
+export default function Movie({ movieData }: Props) {
+  return (
+    <div>
+    ...
+      <div>{movieData.title}</div>
+      <div>{movieData.releaseYear}</div>
+    </div>
+  );
+}
+```
+
+Save the file and let's check the browser. 
+
+Awesome! Everything is displayed correctly.
 
 ### Next up
-
+In the next episode, we'll explore how to create a page for each movie in our app using `dynamic routes`. See you there!

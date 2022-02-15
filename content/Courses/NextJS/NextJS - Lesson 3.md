@@ -172,6 +172,6 @@ Awesome. Before we go any further let's quickly recap what you've learned so far
 You've learned how to setup a new NextJS project, how to create create new pages and how to navigate between them, and also how to work with images, metadata and third-party scripts.
 
 #### Ending
-In the next episode, we'll take a deeper look at pre-rendering and data fetching in NextJS. See you soon!
+In the next lesson, we'll take a deeper look at pre-rendering and data fetching in NextJS. See you soon!
 
 #### [NextJS - Lesson 4](Courses/NextJS/NextJS%20-%20Lesson%204.md)
