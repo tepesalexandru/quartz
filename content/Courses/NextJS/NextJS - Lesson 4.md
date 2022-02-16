@@ -12,19 +12,18 @@ Hi everyone and welcome to the fourth lesson. After understanding the basics, le
 🏞️ Introduction slider
 
 By the end of this lesson, you will have learned:
-- Pre-rendering in NextJS
 - How Static Site Generation (SSG) works behind the scenes
+	- SSG with data
+	- SSG without data
 - How to import external data using `getStaticProps`
 
 #### Pre-rendering
-Before we talk about data fetching, let's talk about one of the most important topics in NextJS: pre-rendering.
-
 I've covered the basics of pre-rendering in [Lesson 1](Courses/NextJS/NextJS%20-%20Lesson%201.md). In this lesson, we're going to build on that knowledge.
 
 ### Static Site Generation
 🏞️ SSG with and without data
 
-Static Site Generation, or SSG for short, can be done with or without data.
+Static Site Generation, or SSG for short, is a form of pre-rendering and it can be done with or without data.
 
 By default, all pages that do not require any form of data fetching are statically generated when the application is built for production.
 
@@ -32,7 +31,7 @@ But, you may run in the case that your page **does** need to fetch external data
 
 🏞️ *SSG with data*
 
-How this process differs from SSG without data, is that all pages that require data fetching to be built, will fetch the needed information, insert it into the HTML file and store the result. 
+How this process differs from SSG without data, is that all pages that require data fetching to be built, will first fetch the needed information, then insert it into the HTML file and store the result. 
 
 This process will happen only once, when the application is built for production.
 
@@ -51,7 +50,9 @@ export async function getStaticProps(): GetStaticProps {
 }
 ```
 
-It's usually placed in the same file as the component we want to fetch data for. In this example, it's for a component named Home. I've also added the `GetStaticProps` return type in order to make it type-safe.
+It's usually placed in the same file as the component we want to fetch data for. In this example, it's for a component named Home. 
+
+I've also added the `GetStaticProps` return type in order to make it type-safe.
 
 So far, the function is empty. But, inside of it, we can fetch data coming from many sources, such as the file system, an API, a database, and so on. An example would look like this
 
@@ -81,9 +82,15 @@ Now, inside of the Home component, we have access to `props.data` and can work w
 
 Essentially, this whole process allows you to tell NextJS: "This page has data dependencies, so when you pre-render this page at build time, make sure to resolve them first!"
 
+🏞️ Static generation benefits slide
+
 Again, the benefit of fetching data using `getStaticProps` is that the data is fetched at build time, not when the user requests the page. Therefore, the user can see the page instantly, without waiting for any data to load. 
 
-Let's see how this process would look in our existing project. If you do not have the code you can clone it from the github repository by selecting the `episode 3` branch. 
+Let's see how this process would look in our existing project. 
+
+🎬 *Show github episode 3 branch*
+
+If you do not have the code you can clone it from the github repository by selecting the `episode 3` branch. 
 
 ### Implementing SSG
 First off, open up VS Code. I'm going to use the `getStaticProps` function to fetch data for the movie page.
