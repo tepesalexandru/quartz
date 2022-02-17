@@ -13,4 +13,5 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 
 #### Coming up
 #### Lesson 5: Dynamic Routes
+#### Lesson 6: API Routes
 
