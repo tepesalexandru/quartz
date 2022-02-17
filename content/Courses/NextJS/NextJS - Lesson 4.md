@@ -84,9 +84,9 @@ Essentially, this whole process allows you to tell NextJS: "This page has data d
 
 🏞️ Static generation benefits slide
 
-Again, the benefit of fetching data using `getStaticProps` is that the data is fetched at build time, not when the user requests the page. Therefore, the user can see the page instantly, without waiting for any data to load. 
+Again, the benefit of fetching data using `getStaticProps` is that the data is fetched at build time, not when the user requests the page. Therefore, the user can see the page instantly, without waiting for any data to load. On the other hand, if you're using a `create-react-app`, you'd be using Client-Side Rendering (CSR), and have to wait for the data each time.
 
-Let's see how this process would look in our existing project. 
+Let's see how to statically generate a page in our existing project. 
 
 🎬 *Show github episode 3 branch*
 
@@ -105,31 +105,44 @@ export async function getStaticProps(): GetStaticProps {
 }
 ```
 
-For this example, I'm going to fetch data from a `.json` file. The file does not exist yet, so let's create it.
+For this example, I'm going to use the `moviedb` API to fetch a movie with all of its data. In order to do so, we have to generate an API key from their website by creating an account. This process takes less than a minute.
 
-In the base directory, create a new folder named `data` and inside of it, create a new file named `movie.json`. Inside of the file, insert the the following content.
+### Getting the API Key
+First off, go to [themoviedb.org](https://www.themoviedb.org/), create a new account, and verify your email.
 
-```JSON
-{
-  "Title": "Iron Man",
-  "ReleaseYear": 2008
-}
+Then, login with your credentials, click on your profile icon in the upper right corner and select "Settings".
+
+From the left menu, click on "API", and then generate a new API key. 
+
+Lastly, select "Developer" and fill out the form that appears.
+
+After you've completed the process, you should see somewhere on your screen an API key that looks like this:
+
+```
+4311457e3cc8a7c606a63fb963646ad1
 ```
 
-This will be the data we want to fetch and pass to the `Movie` component. To access this data, I'm going to use the native `fetch` function and transform the response to JSON format:
+Awesome, now we can continue with the project.
+
+### Fetching Data
+Let's fetch a movie from the API and pass the result to the `Movie` component. 
+
+To do so, I'm going to use the native `fetch` function to fetch the first movie from the `moviedb` API and transform the response to JSON format:
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const req = await fetch("http://localhost:3000/movie.json");
+  const req = await fetch("https://api.themoviedb.org/3/movie/1?api_key=<your-api-key>");
   const movieData = await req.json();
 }
 ```
 
-And lastly, we have to pass it as props to the component.
+> For security reasons, you don't want other people to see your API Key, but for simplicity, we're going to keep it here.
+
+Lastly, we have to pass the fetched movie as props to the component.
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const req = await fetch("http://localhost:3000/movie.json");
+  const req = await fetch("https://api.themoviedb.org/3/movie/1?api_key=<your-api-key>");
   const movieData = await req.json();
 
   return {
@@ -140,17 +153,24 @@ export async function getStaticProps(): GetStaticProps {
 }
 ```
 
-Awesome, now the data is going towards the `Movie` component. What we have to do now is accept the incoming data.
+Awesome, now the component needs to be able to accept the incoming data.
 
-For that, above the `Movie` component, declare a new type for the props:
+For that, above the `Movie` component, declare a new type for the props and another for the movie properties:
 
 ```tsx
+type MovieProps = {
+  title: string;
+  release_date: number;
+}
+
 type Props = {
   movieData: MovieProps;
 }
 ```
 
-And then deconstruct the prop in the parameter of the function:
+> In this case, we're looking at only 2 properties of the movie, its `title` and `release_date`. In the future, we'll add more properties.
+
+Then deconstruct the prop in the parameter of the function:
 
 ```tsx
 export default function Movie({ movieData }: Props)
@@ -164,7 +184,7 @@ export default function Movie({ movieData }: Props) {
     <div>
     ...
       <div>{movieData.title}</div>
-      <div>{movieData.releaseYear}</div>
+      <div>{movieData.release_date}</div>
     </div>
   );
 }
