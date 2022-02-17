@@ -127,11 +127,13 @@ Awesome, now we can continue with the project.
 ### Fetching Data
 Let's fetch a movie from the API and pass the result to the `Movie` component. 
 
-To do so, I'm going to use the native `fetch` function to fetch the first movie from the `moviedb` API and transform the response to JSON format:
+To do so, I'm going to use the native `fetch` function to fetch the movie with an id of `550` from the `moviedb` API and transform the response to JSON format:
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const req = await fetch("https://api.themoviedb.org/3/movie/1?api_key=<your-api-key>");
+  const req = await fetch(
+    "https://api.themoviedb.org/3/movie/550?api_key=<your-api-key>"
+  );
   const movieData = await req.json();
 }
 ```
@@ -142,7 +144,9 @@ Lastly, we have to pass the fetched movie as props to the component.
 
 ```tsx
 export async function getStaticProps(): GetStaticProps {
-  const req = await fetch("https://api.themoviedb.org/3/movie/1?api_key=<your-api-key>");
+  const req = await fetch(
+    "https://api.themoviedb.org/3/movie/550?api_key=<your-api-key>"
+  );
   const movieData = await req.json();
 
   return {
@@ -170,13 +174,13 @@ type Props = {
 
 > In this case, we're looking at only 2 properties of the movie, its `title` and `release_date`. In the future, we'll add more properties.
 
-Then deconstruct the prop in the parameter of the function:
+Then deconstruct the props in the parameter of the function. In this case, we're expecting to receive a prop named `movieData`:
 
 ```tsx
 export default function Movie({ movieData }: Props)
 ```
 
-And that's it! Now we have access to the movie prop inside of the component. Let's display the movie title and its release year.
+And that's it! Now we have access to the `movieData` prop inside of the component. Let's display the movie title and its release year.
 
 ```tsx
 export default function Movie({ movieData }: Props) {
@@ -190,9 +194,27 @@ export default function Movie({ movieData }: Props) {
 }
 ```
 
-Save the file and let's check the browser. 
+Save the file, and start the dev server if it's stopped. Open the browser, and go to the movie page.
 
 Awesome! Everything is displayed correctly.
+
+But, you may have noticed that the `Movie` page did not load instantly. This is because in `development` mode, every page uses Server Side Rendering instead of Static Generation. So, the data is filled in when the user requests the page.
+
+As you've seen previously, static generation happens when we build the application for production. So, let's do that and see if there's a difference.
+
+Run this command to build the app for production:
+
+```cmd
+npm run build
+```
+
+After the command has finished running, the production build will be in the `.next` folder. To run it, use the command:
+
+```
+npm run start
+```
+
+Now the local server will simulate a production environment. If we open the browser and go again to the movie page, you'll see that the page loads instantly on click.
 
 ### Next up
 In the next episode, we'll explore how to create a page for each movie in our app using `dynamic routes`. See you there!
