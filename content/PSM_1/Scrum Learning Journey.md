@@ -3,7 +3,7 @@ title: "Scrum Learning Journey"
 ---
 I have published series of articles on Medium about my Scrum learning journey. The final purpose of the journey is to get the Professional Scrum Master 1 certification.
 
-> I have obtained the Professional Scrum Master I certification on 19th February 2022 ✅
+> I have obtained the Professional Scrum Master I certification on the 19th of February 2022 ✅
 
 Here is the current available content (everything is open to the world and available for free).
 
