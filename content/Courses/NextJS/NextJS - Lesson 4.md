@@ -6,14 +6,14 @@ Lesson 4 complete code: [Github Repo](https://github.com/The-Boring-Team/nextjs-
 🏞️ Episode 4 slider
 
 #### Introduction
-Hi everyone and welcome to the fourth lesson. After understanding the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. 
+Hi everyone and welcome to the fourth episode. After understanding the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. 
 
 🏞️ Introduction slider
 
 By the end of this lesson, you will have learned:
 - How Static Site Generation (SSG) works behind the scenes
-	- SSG with data
 	- SSG without data
+	- SSG with data
 - How to import external data using `getStaticProps`
 
 #### Pre-rendering
@@ -44,7 +44,7 @@ To fetch data for a static page when it is built, the `getStaticProps` function 
 ```tsx
 export default function Home(props: Props) { ... }
 
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
   
 }
 ```
@@ -56,7 +56,7 @@ I've also added the `GetStaticProps` return type in order to make it type-safe.
 So far, the function is empty. But, inside of it, we can fetch data coming from many sources, such as the file system, an API, a database, and so on. An example would look like this
 
 ```tsx
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
   const data = await fetchData();
 }
 ```
@@ -66,7 +66,7 @@ We can use the `await` keyword to wait for the result since the function is asyn
 Lastly, the `getStaticProps` function, returns an object containing the props passed to the component.
 
 ```tsx
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
   const data = await fetchData();
 
   return {
@@ -99,7 +99,7 @@ Let's go to `movie.tsx`, and under the component, write the empty function.
 ```tsx
 export default function Movie() { ... }
 
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
 
 }
 ```
@@ -129,7 +129,7 @@ Let's fetch a movie from the API and pass the result to the `Movie` component.
 To do so, I'm going to use the native `fetch` function to fetch the movie with an id of `550` from the `moviedb` API and transform the response to JSON format:
 
 ```tsx
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
   const req = await fetch(
     "https://api.themoviedb.org/3/movie/550?api_key=<your-api-key>"
   );
@@ -142,7 +142,7 @@ export async function getStaticProps(): GetStaticProps {
 Lastly, we have to pass the fetched movie as props to the component.
 
 ```tsx
-export async function getStaticProps(): GetStaticProps {
+export const getStaticProps: GetStaticProps = async () => {
   const req = await fetch(
     "https://api.themoviedb.org/3/movie/550?api_key=<your-api-key>"
   );
