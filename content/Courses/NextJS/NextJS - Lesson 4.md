@@ -6,21 +6,21 @@ Lesson 4 complete code: [Github Repo](https://github.com/The-Boring-Team/nextjs-
 🏞️ Episode 4 slider
 
 #### Introduction
-Hi everyone and welcome to the fourth episode. After understanding the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. 
+Hi everyone and welcome to the fourth episode. Now that we understand the basics, let's explore the core concepts behind the reason why NextJS is truly a powerful framework. 
 
 🏞️ Introduction slider
 
-By the end of this lesson, you will have learned:
-- How Static Site Generation (SSG) works behind the scenes
-	- SSG without data
-	- SSG with data
-- How to import external data using `getStaticProps`
+By the end of this episode, you will have learned:
+- How Static Site Generation (SSG) works behind the scenes, both with
+	- with
+	- and without data
+- and also how to import that external data using `getStaticProps`
 
 #### Pre-rendering
 I've covered the basics of pre-rendering in [Lesson 1](Courses/NextJS/NextJS%20-%20Lesson%201.md). In this lesson, we're going to build on that knowledge.
 
 ### Static Site Generation
-🏞️ SSG with and without data
+🏞️ SSG without data
 
 Static Site Generation, or SSG for short, is a form of pre-rendering and it can be done with or without data.
 
