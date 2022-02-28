@@ -158,20 +158,26 @@ export const getStaticProps: GetStaticProps = async () => {
 
 Awesome, now the component needs to be able to accept the incoming data.
 
-For that, above the `Movie` component, declare a new type for the props and another for the movie properties:
+For that, above the `Movie` component, define a new type for the incoming data:
 
 ```tsx
-type MovieProps = {
-  title: string;
-  release_date: number;
-}
-
 type Props = {
   movieData: MovieProps;
 }
 ```
 
+I will also create a new file named `types.ts`, from which I will export the type for the movie properties. I'm putting this type in another file in order to make it more reusable.
+
+```tsx
+export type MovieProps = {
+  title: string;
+  release_date: number;
+}
+```
+
 > In this case, we're looking at only 2 properties of the movie, its `title` and `release_date`. In the future, we'll add more properties.
+
+Back in the `movie.tsx` file, import MovieProps type.
 
 Then deconstruct the props in the parameter of the function. In this case, we're expecting to receive a prop named `movieData`:
 
@@ -195,11 +201,11 @@ export default function Movie({ movieData }: Props) {
 
 Save the file, and start the dev server if it's stopped. Open the browser, and go to the movie page.
 
-Awesome! Everything is displayed correctly.
+Nice! Everything is displayed correctly.
 
 But, you may have noticed that the `Movie` page did not load instantly. This is because in `development` mode, every page uses Server Side Rendering instead of Static Generation. So, the data is filled in when the user requests the page.
 
-As you've seen previously, static generation happens when we build the application for production. So, let's do that and see if there's a difference.
+As you've seen previously, static generation happens when we build the application for production. So, let's do that and see if there's any difference.
 
 Run this command to build the app for production:
 

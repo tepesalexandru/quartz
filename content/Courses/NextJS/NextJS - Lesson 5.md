@@ -8,10 +8,12 @@ Hi everyone and welcome to the fifth episode. In this one, we'll explore a conce
 
 🏞️ What you will learn slider
 
-By the end of this lesson, you will have learned:
-- How to statically generate pages with `dynamic routes` using `getStaticPaths`
-- How to write `getStaticProps` to fetch the data for each page.
-- How to link to a page with a `dynamic route`
+By the end of this lesson, you will have learned how to:
+- Statically generate pages with `dynamic routes` using `getStaticPaths`
+- Implement the `getStaticProps` function to fetch the data for each page.
+- Link to a page with a `dynamic route`
+
+🎬 Show github repository
 
 I'm going to build upon the code from last episode. If you want to follow along, be sure to clone the `episode-4` branch.
 
@@ -38,7 +40,7 @@ In our case, we'll want to statically generate a list of movies based on their `
 
 It's important to clearly define what those `ids` are, since in order for NextJS to statically generate those pages, it will need to fetch the data for each one of them.
 
-NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time. In our case, we'll define the `ids` of the `movies` we want to show.
+NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time. In our case, we'll define the `ids` of the `movies` we want to show. Let's look at a more generic example first.
 
 ### getStaticPaths
 🏞️ getStaticPaths slider
@@ -51,7 +53,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 ```
 
-Here we can build the list of ids, and then return them.
+Here we can build the list of ids of the pages we want to generate, and then return them in an object with the `paths` property containing them. The `paths` property is required by the `GetStaticPaths` interface.
 
 ```tsx
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -62,3 +64,129 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 }
 ```
+
+As of right now, the function is not complete. Although we need to return a list of ids, the `paths` property  must contain an array of objects that have the following structure:
+
+```tsx
+{
+  params: {
+    id: "<page-id>"
+  }
+}
+```
+
+They have a `params` property, and inside of it, the property of `id`. The `params` property on the object actually refers to what parameters we want to insert into each statically generated page. In our case, the `id` property refers to the movie id.
+
+Let's create a new variable holding this information. We're going to map each id to a new object with the `params` property.
+
+```tsx
+const paths = ids.map((id: string) => ({
+  params: {
+    id
+  }
+}))
+```
+
+With a small refactor, the full code looks like this
+
+```tsx
+export const getStaticPaths: GetStaticPaths = async () => {
+  const ids = ['1', '2', '3', '4'];
+  const paths = ids.map((id: string) => ({
+    params: {
+      id
+    }
+  }))
+  
+  return {
+    paths
+  }
+}
+```
+
+Great, so far we've told NextJS which pages we want to statically generate. Now, we have to refactor the `getStaticProps` function in order to make it more dynamic. The way we do so, is by receiving the `params` object from the `getStaticPaths` function. In ordor to do that, insert the parameter `context` into the function definition and then extract the `id` from the `params`.
+
+```tsx
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { id } = context.params!;
+}
+```
+
+And that's it, now we have access to the `id` property of the page we want to statically generate. This means that if the `getStaticPaths` function returns the ids `['1', '2', '3', '4']`, we'll have 4 different `getStaticProps` functions, each one of them with their own `id` property.
+
+### Back to the project
+Let's apply what we've just learned to our project. Let's start by creating a new `dynamic route`. In order to do so, create a new folder named `movies` and inside of it create a file named `[id].tsx`. As we've just learned, this route is `dynamic`, since the `id` can be anything.
+
+Inside of this file, copy everything that's currently in the `movie.tsx` file, as we won't need it anymore.
+
+Now we have a new `dynamic route` in our project at `/movies/id`.
+
+Next, let's implement the `getStaticPaths` function. First off, import the `GetStaticPaths` interface.
+
+```tsx
+import { GetStaticProps, GetStaticPaths } from "next";
+```
+
+Then, under the component, create the function definition.
+
+```tsx
+export const getStaticPaths: GetStaticPaths = async () => {
+
+}
+```
+
+Instead of manually typing the movie ids we want to statically generate, let's fetch the most popular movies and extract their ids.
+
+We can do so by calling the `/movie/popular` endpoint in `themoviedb` API.
+
+```tsx
+const req = await fetch(
+  "https://api.themoviedb.org/3/movie/popular?api_key=<your-api-key>"
+);
+
+const popularMovies = await req.json();
+```
+
+There is a lot of information that comes with this request, but all we want from it are the movie ids. We can extract them using a simple map function. Here I've put them directly in the `params` property.
+
+```tsx
+const movieIds = popularMovies.results.map((movie: MovieProps) => ({
+  params: {
+    id: movie.id.toString(),
+  },
+}));
+```
+
+Lastly, return the `movieIds` as `paths`.
+
+```tsx
+return {
+  paths: movieIds,
+};
+```
+
+Great, now let's refactor the `getStaticProps` function in order to use the movie id. 
+
+Insert a new parameter named `context`, and extract the `id` from the `params`.
+
+```tsx
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { id } = context.params!;
+  ...
+}
+```
+
+Now we can use this `id` in order to fetch that particular movie. Refactor the fetch function in order to get the movie with this `id`.
+
+```tsx
+const req = await fetch(
+  `https://api.themoviedb.org/3/movie/${id}?api_key=<your-api-key>`
+);
+```
+
+Awesome, now the flow is complete. 
+
+We could build the app right now and run it, but we'd have to guess what those movie ids are. Instead of that, let's do one more thing. Generate the list of popular movies on the homepage and create a `Link` between each movie and its `dynamic route`.  
+
+### Next up
+Server Side Rendering
