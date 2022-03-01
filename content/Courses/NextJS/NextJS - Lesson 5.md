@@ -186,7 +186,71 @@ const req = await fetch(
 
 Awesome, now the flow is complete. 
 
+# Links to Dynamic Routes
+
 We could build the app right now and run it, but we'd have to guess what those movie ids are. Instead of that, let's do one more thing. Generate the list of popular movies on the homepage and create a `Link` between each movie and its `dynamic route`.  
 
+First off, go to the `index.tsx` file and write a new `getStaticProps` function in order to fetch the list of popular movies. The API endpoint for that is `/movie/popular`.
+
+```tsx
+export const getStaticProps: GetStaticProps = async () => {
+  const req = await fetch(
+    "https://api.themoviedb.org/3/movie/popular?api_key=<your-api-key>"
+  );
+  const popularMovies = await req.json();
+}
+```
+
+Of course, we'll convert the response to JSON format.
+
+Lastly, let's extract the `id` of each popular movie and pass it in the component `props`:
+
+```tsx
+  ...
+  const popularMovies = await req.json();
+  const movieIds = popularMovies.results.map((movie: MovieProps) =>
+    movie.id.toString()
+  );
+
+  return {
+    props: {
+      movieIds,
+    },
+  };
+```
+
+As we've done before, let's define the `type` of the Props and deconstruct them.
+
+```tsx
+type Props = {
+  movieIds: string[];
+};
+
+const Home: NextPage<Props> = ({ movieIds })
+```
+
+Using `NextPage<Props>` is the alternative way of applying the props type if the component is defined as an arrow function.
+
+Now that we have the popoular movie ids, let's create a `Link` to each one of them. Inside of the `Home` component, use the `.map()` function to create a new `Link` for every `movie id` in the props. Also, since we're using the `.map()` method, be sure to give each element a unique key, in our case we'll use the movieId.
+
+```tsx
+{movieIds.map((movieId: string) => (
+  <Link key={`movie-${movieId}`} href={`/movies/${movieId}`}>
+    <a>{movieId}</a>
+  </Link>
+))}
+```
+
+The `Link` component has an `href` pointing to `/movies/${movieId}`, which is exactly what we needed.
+
+Let's create a production build and run it.
+
+```
+npm run build
+npm run start
+```
+
+Great, everything works perfectly.
+
 ### Next up
-Server Side Rendering
+In the next episode, we'll dive into `Server Side Rendering`, we'll add `Images` to our project as well as making everything look better with `CSS`.
