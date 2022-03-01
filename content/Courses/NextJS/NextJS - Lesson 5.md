@@ -162,8 +162,11 @@ Lastly, return the `movieIds` as `paths`.
 ```tsx
 return {
   paths: movieIds,
+  fallback: false
 };
 ```
+
+We also need to add a `fallback` property, telling NextJS to return a `404 Page` to any routes that don't match the provided movie ids.
 
 Great, now let's refactor the `getStaticProps` function in order to use the movie id. 
 
