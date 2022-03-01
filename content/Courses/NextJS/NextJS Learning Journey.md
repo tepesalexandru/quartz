@@ -10,8 +10,8 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 
 ### Intermediate
 #### [Lesson 4: Pre-Rendering & Data Fetching](Courses/NextJS/NextJS%20-%20Lesson%204.md)
+#### [Lesson 5: Dynamic Routes](Courses/NextJS/NextJS%20-%20Lesson%205.md)
 
 #### Coming up
-#### Lesson 5: Dynamic Routes
-#### Lesson 6: API Routes
+#### Lesson 6: Server Side Rendering
 
