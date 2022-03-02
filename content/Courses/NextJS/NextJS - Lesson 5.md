@@ -256,4 +256,4 @@ npm run start
 Great, everything works perfectly.
 
 ### Next up
-In the next episode, we'll dive into `Server Side Rendering`, we'll add `Images` to our project as well as making everything look better with `CSS`.
+In the next episode, we'll dive into `Server Side Rendering`, we'll add external `Images` to our project as well as making everything look better with `CSS`.

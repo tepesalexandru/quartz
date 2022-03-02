@@ -223,3 +223,5 @@ Now the local server will simulate a production environment. If we open the brow
 
 ### Next up
 In the next episode, we'll explore how to create a page for each movie in our app using `dynamic routes`. See you there!
+
+#### [NextJS - Lesson 5: Dynamic Routes](Courses/NextJS/NextJS%20-%20Lesson%205.md)
