@@ -3,6 +3,10 @@ title: "NextJS - Lesson 5: Dynamic Routes"
 ---
 🏞️ Episode 5 slider
 
+Github branch: [here](https://github.com/The-Boring-Team/nextjs-movies/tree/episode-5)
+
+Slides: [here](https://www.canva.com/design/DAE5TCcFx8E/YNdri6N0pWURfjZaYxBWlQ/view?utm_content=DAE5TCcFx8E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 #### Introduction
 Hi everyone and welcome to the fifth episode. In this one, we'll explore a concept in NextJS called `Dynamic Routes`.
 
