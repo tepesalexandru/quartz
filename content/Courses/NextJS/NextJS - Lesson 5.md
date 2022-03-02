@@ -40,10 +40,10 @@ In our case, we'll want to statically generate a list of movies based on their `
 
 It's important to clearly define what those `ids` are, since in order for NextJS to statically generate those pages, it will need to fetch the data for each one of them.
 
-NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time. In our case, we'll define the `ids` of the `movies` we want to show. Let's look at a more generic example first.
-
 ### getStaticPaths
 🏞️ getStaticPaths slider
+
+NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time. In our case, we'll define the `ids` of the `movies` we want to show. Let's look at a more generic example first.
 
 The function definition looks like this:
 
