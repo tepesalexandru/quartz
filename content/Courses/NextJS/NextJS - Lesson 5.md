@@ -43,15 +43,15 @@ It's important to clearly define what those `ids` are, since in order for NextJS
 ### getStaticPaths
 🏞️ getStaticPaths slider
 
-NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time. In our case, we'll define the `ids` of the `movies` we want to show. Let's look at a more generic example first.
-
-The function definition looks like this:
+NextJS provides the `getStaticPaths` function to allow us to define the list of `ids` of the pages we want to fetch data for at build time.  The function definition looks like this:
 
 ```tsx
 export const getStaticPaths: GetStaticPaths = async () => {
 
 }
 ```
+
+In our case, we'll define the `ids` of the `movies` we want to show. But first, let's look at a more generic example.
 
 Here we can build the list of ids of the pages we want to generate, and then return them in an object with the `paths` property containing them. The `paths` property is required by the `GetStaticPaths` interface.
 
@@ -104,7 +104,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 ```
 
-Great, so far we've told NextJS which pages we want to statically generate. Now, we have to refactor the `getStaticProps` function in order to make it more dynamic. The way we do so, is by receiving the `params` object from the `getStaticPaths` function. In ordor to do that, insert the parameter `context` into the function definition and then extract the `id` from the `params`.
+Great, so far we've told NextJS which pages we want to statically generate. Now, we have to refactor the `getStaticProps` function in order to make it more dynamic. The way we do so, is by receiving the `params` object from the `getStaticPaths` function. In order to do that, insert the parameter `context` into the function definition and then extract the `id` from the `params`.
 
 ```tsx
 export const getStaticProps: GetStaticProps = async (context) => {
