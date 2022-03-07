@@ -119,7 +119,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 And that's it, now we have access to the `id` property of the page we want to statically generate. This means that if the `getStaticPaths` function returns the ids `['1', '2', '3', '4']`, we'll have 4 different `getStaticProps` functions, each one of them with their own `id` property.
 
 ### Back to the project
-Let's apply what we've just learned to our project. Let's start by creating a new `dynamic route`. In order to do so, create a new folder named `movies` and inside of it create a file named `[id].tsx`. As we've just learned, this route is `dynamic`, since the `id` can be anything.
+Let's apply what we've just learned to our project. Let's start by creating a new `dynamic route`. In order to do so, create a new folder named `movies` and inside of it move the current `movie.tsx` file, and rename it to `[id].tsx`. As we've just learned, this route is `dynamic`, since the `id` can be anything.
 
 Inside of this file, copy everything that's currently in the `movie.tsx` file, as we won't need it anymore.
 
@@ -160,6 +160,8 @@ const movieIds = popularMovies.results.map((movie: MovieProps) => ({
   },
 }));
 ```
+
+> If you're getting an error, add a new property to the MovieProps type of "id: number".
 
 Lastly, return the `movieIds` as `paths`.
 

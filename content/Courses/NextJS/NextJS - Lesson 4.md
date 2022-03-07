@@ -39,7 +39,7 @@ Let's see how this would look in practice.
 ### The getStaticProps function
 🏞️ getStaticProps function
 
-To fetch data for a static page when it is built, the `getStaticProps` function is used. The skeleton of the function looks like this.
+To fetch data for a static page when it is built, the `getStaticProps` function is used. The skeleton of the function looks like this:
 
 ```tsx
 export default function Home(props: Props) { ... }
