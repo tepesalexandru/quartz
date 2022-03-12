@@ -11,7 +11,9 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 ### Intermediate
 #### [Lesson 4: Pre-Rendering & Data Fetching](Courses/NextJS/NextJS%20-%20Lesson%204.md)
 #### [Lesson 5: Dynamic Routes](Courses/NextJS/NextJS%20-%20Lesson%205.md)
+#### [Lesson 6: Server Side Rendering](Courses/NextJS/NextJS%20-%20Lesson%206.md)
+	- External Images
+	- Working with CSS	
 
 #### Coming up
-#### Lesson 6: Server Side Rendering
-
+#### Lesson 7: Deploying to Vercel
