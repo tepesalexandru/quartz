@@ -295,6 +295,8 @@ Inside of the `primaryContainer`, insert a new `div` with the class of `posterCo
 </div>
 ```
 
+Also, be sure to change the Image `src` to be `backdrop_path` instead of `poster_path`. The difference being that `backdrop_path` gives us a landscape image instead of a portrait one. 
+
 Under the `posterContainer`, let's add the movie description, which is contained in the `overview` property:
 
 ```tsx
