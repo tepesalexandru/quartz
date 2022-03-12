@@ -142,6 +142,187 @@ const nextConfig = {
 
 Let's run the app again. Now, when we click on a movie, everything works correctly and the image is displayed.
 
-Let's add some CSS to improve the page appearence
+Let's add some CSS to improve the page appearence and some other enhancements.
 
-#### CSS
+#### CSS & Enhancements
+First off, go to the `styles` folder and open `global.css`. Here, let's add a global style for the background, text color and font family:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+...
+body {
+  ...
+  background: #000814;
+  color: #FFC300;
+  font-family: 'Montserrat', sans-serif;
+}
+```
+
+After that, let's create a new css file named `Movie.module.css` and import it in the `[id].tsx` file. 
+
+```tsx
+import styles from "../../styles/Movie.module.css";
+```
+
+Here, we'll put styles specific to the movie page.
+
+Inside of the `Movie.module.css` file, I'm going to insert these styles:
+
+```css
+.container {
+  padding: 42px 200px;
+}
+
+.chip {
+  border: 1px solid #FFD60A;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 16px;
+  display: inline;
+}
+
+.contentContainer {
+  display: flex;
+  gap: 24px;
+}
+
+.primaryContainer {
+  flex: 3;
+}
+
+.secondaryContainer {
+  flex: 1;
+  padding-top: 8px;
+}
+
+.posterContainer {
+  position: relative;
+  aspect-ratio: 16/9;
+}
+```
+
+> You can find these styles in the github repository for this episode.
+
+Aside from this, let's also get more information from the API itself. Go to the `types.ts` file, and add the following properties to the `MovieProps` type:
+
+```tsx
+export type MovieProps = {
+  ...
+  backdrop_path: string;
+  overview: string;
+  genres: Genre[];
+  runtime: number;
+}
+```
+
+In order to keep the code clean, I'm going to create another type for the genres:
+
+```tsx
+export type Genre = {
+  id: number;
+  name: string;
+};
+```
+
+Now we have everything we need to improve the movie page. Go inside the `[id].tsx` file, and inside the `Movie` component, add the following three variables:
+
+The first, will be for the movie genres:
+
+```tsx
+const movieGenres: string = movieData.genres
+  .map((genre: Genre) => genre.name)
+  .join(", ");
+```
+
+> For this one, be sure to import the Genre type.
+
+The second, for the release year:
+
+```tsx
+const releaseYear: number = new Date(movieData.release_date).getFullYear();
+```
+
+And the last, for the movie duration in hours and minutes:
+
+```tsx
+const movieDuration: string = 
+  `${Math.floor(movieData.runtime / 60)} h ${movieData.runtime % 60} min`;
+```
+
+Now, let's get to the render function itself.
+
+First, give the root div the class of `container`:
+
+```tsx
+  <div className={styles.container}>
+```
+
+Change the `title` of the page to match the movie title, and remove the dummy text under the `Head` component:
+
+```tsx
+<title>{movieData.title}</title>
+```
+
+Next, move the `div` containing the movie title and put it right under the `Link` component. Inside of it, enclose the text with an `h2` tag:
+
+```tsx
+<div>
+  <h2>{movieData.title}</h2>
+</div>
+```
+
+Under the `div` containing the movie title, insert the following structure:
+
+```tsx
+<div className={styles.contentContainer}>
+  <div className={styles.primaryContainer}></div>
+  <div className={styles.secondaryContainer}></div>
+</div>
+```
+
+Here, we have two containers, one is called primary and will contain the movie image and description, while the other is the secondary container which will contain the movie release year, duration and genres.
+
+Inside of the `primaryContainer`, insert a new `div` with the class of `posterContainer`. Inside of it, move the current image and remove the `height` and `width` properties. Instead, add a new property named `layout`, and assign it the value of `fill`. This will make the image fill the entire space occupied by the parent component.
+
+```tsx
+<div className={styles.posterContainer}>
+  <Image
+    src={`https://image.tmdb.org/t/p/original${movieData.backdrop_path}`}
+    alt="Movie image"
+    layout="fill"
+  />
+</div>
+```
+
+Under the `posterContainer`, let's add the movie description, which is contained in the `overview` property:
+
+```tsx
+<h5>About</h5>
+<p>{movieData.overview}</p>
+```
+
+Lastly, let's move to the `secondaryContainer` and add the release year, movie duration and genres:
+
+```tsx
+<div className={styles.secondaryContainer}>
+  <p className={styles.chip}>{releaseYear}</p>
+  <p className={styles.chip}>{movieDuration}</p>
+  <h5>Genres</h5>
+  <span>{movieGenres}</span>
+</div>
+```
+
+Awesome, those were all the improvements I wanted to add in. Let's build the app for production and run it:
+
+```
+npm run build
+npm run start
+```
+
+Let's open the first movie, and there it is, everything works perfectly. You may notice that the first time you enter on a movie, the image takes some time to load, which is normal. After the first time, it will be cached and will load instantly.
+
+We can verify this by going back to the homepage, and clicking on the first movie again. As you can see, the image loaded instantly.
+
+### Next up
+In the next episode, we'll improve the appearence of the homepage, we'll talk about `partials` in NextJS and we'll deploy the app using `Vercel`.
