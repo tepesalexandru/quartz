@@ -144,6 +144,14 @@ Let's run the app again. Now, when we click on a movie, everything works correct
 
 Let's add some CSS to improve the page appearence and some other enhancements.
 
+🏞️ Display finished design of the movie page (deployed to vercel)
+
+This is the desired result of how the movie page should look. We have a landscape image of the movie, it's description, as well as the year it was released, it's length and its genres.
+
+There is also a button to go back to the homepage.
+
+Awesome, let's start implementing it.
+
 #### CSS & Enhancements
 First off, go to the `styles` folder and open `global.css`. Here, let's add a global style for the background, text color and font family:
 
@@ -327,4 +335,4 @@ Let's open the first movie, and there it is, everything works perfectly. You may
 We can verify this by going back to the homepage, and clicking on the first movie again. As you can see, the image loaded instantly.
 
 ### Next up
-In the next episode, we'll improve the appearence of the homepage, we'll talk about `partials` in NextJS and we'll deploy the app using `Vercel`.
+In the next episode, we'll improve the appearence of the homepage, we'll talk about `Layouts` in NextJS and we'll deploy the app using `Vercel`.
