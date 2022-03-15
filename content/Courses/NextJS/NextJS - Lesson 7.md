@@ -205,3 +205,122 @@ Let's go back to VSCode and do just that. It's quite straight forward. We need t
   </div>
 </Link>
 ```
+
+The `passHref` prop allows us to pass the navigation logic to the first child of the `Link` component, even if it's not an `a` tag.
+
+Save the file, and let's check the browser. Now, when we click an image, it redirects us to that movie page. Awesome.
+
+#### Layouts
+One more feature I want to discuss before deploying our project to Vercel is `Layouts`.
+
+Layouts allow us to wrap every page with a component. This is perfect in case our website needs a header or a footer. In our project, I'm going to use `Layouts` in order to display a basic header on every page.
+
+In order to create a `Layout`, we need a new folder to store it. In essence, a `Layout` is just a component with a `children` prop. 
+
+Let's start off by a creating a new folder named `components` in the root directory, and inside of it a new file named `Navbar.tsx`. After that, insert the basic component snippet with `tsrfc`:
+
+```tsx
+import React, { ReactElement } from "react";
+
+type Props = {
+
+};
+
+export default function Navbar({}: Props) {
+ return (
+ <div></div>
+ );
+}
+```
+
+The most import thing about this `Layout` component is that it will wrap around the existing app. In order to do that, it must accept a prop named `children`, so we're going to add to the `type` and deconstruct it:
+
+```tsx
+type Props = {
+  children: ReactElement;
+};
+
+export default function Navbar({ children }: Props)
+```
+
+This component will contain two things, the navbar itself, as well as the rest of the app, denoted as `children`. A basic structure for the component looks like this:
+
+```tsx
+<div>
+  <div>{/* Navbar */}</div>
+  {children}
+</div>
+```
+
+For this example, I'm going to buid a very simple header, only containing the title of the app, in this case `TOPMovies`, that when clicked it redirects the user to the homepage.
+
+We've already learned how to do that by using a `Link`:
+
+```tsx
+<Link href="/">
+  <a>TOPMovies</a>
+</Link>
+```
+
+That's all we need, but I'd like to make the navbar a little better to look at, so I'm going to add some css to it.
+
+I'm going to create a new css file just for the navbar in the `styles` folder, named `Navbar.module.css`. Inside of it, I'm going to paste the following styles:
+
+```css
+.navbar {
+  padding: 14px 40px;
+  background-color: #001D3D;
+  font-weight: bold;
+  font-size: 30px;
+}
+```
+
+Great, now that we have those, let's return to the `Navbar` component and import them:
+
+```tsx
+import styles from "../styles/Navbar.module.css";
+```
+
+as well as giving the class to the parent of the `Link` component:
+
+```tsx
+<div className={styles.navbar}>
+  <Link href="/">
+    ...
+  </Link>
+</div>
+```
+
+Perfect, the `Navbar` component is now ready to use. We can wrap every page in our app with this component by going in the `_app.tsx` file, importing the `Navbar` and wrapping the `Component` tag with it.
+
+```tsx
+import Navbar from "../components/Navbar";
+
+...
+return (
+  <Navbar>
+    <Component {...pageProps} />
+  </Navbar>
+);
+```
+
+That's all there is it to. Let's save everything and check the browser again.
+
+As you can see, now we have a simple navbar, and when we click on a movie, it stays right there. We can also click the app title in order to go back to the homepage.
+
+Since now we have this functionality, we no longer need the `Link` to the homepage in the movie page. Let's quickly delete it from the `[id].tsx` file:
+
+```tsx
+<Link href="/">
+  <a>Homepage</a>
+</Link>
+```
+
+Awesome. We are done developing the app. Of course, you can keep going with it and have fun implementing new features.
+
+The last step when building an application is actually deploying it. So let's do that next.
+
+#### Deploying to Vercel
+Vercel is a perfect platform to deploy NextJS applications. The process is very simple and fast.
+
+Let's start by opening up Vercel.
