@@ -336,3 +336,5 @@ We can verify this by going back to the homepage, and clicking on the first movi
 
 ### Next up
 In the next episode, we'll improve the appearence of the homepage, we'll talk about `Layouts` in NextJS and we'll deploy the app using `Vercel`.
+
+#### [NextJS - Lesson 7: Deploying to Vercel](Courses/NextJS/NextJS%20-%20Lesson%207.md)

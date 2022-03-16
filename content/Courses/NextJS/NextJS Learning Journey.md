@@ -13,6 +13,6 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 #### [Lesson 5: Dynamic Routes](Courses/NextJS/NextJS%20-%20Lesson%205.md)
 #### [Lesson 6: Server Side Rendering](Courses/NextJS/NextJS%20-%20Lesson%206.md)
 - External Images
-- Working with CSS	
-
+- Working with CSS
 #### [Lesson 7: Deploying to Vercel](Courses/NextJS/NextJS%20-%20Lesson%207.md)
+- Layouts

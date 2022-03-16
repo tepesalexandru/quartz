@@ -263,3 +263,5 @@ Great, everything works perfectly.
 
 ### Next up
 In the next episode, we'll dive into `Server Side Rendering`, we'll add external `Images` to our project as well as making everything look better with `CSS`.
+
+#### [NextJS - Lesson 6: Server Side Rendering](Courses/NextJS/NextJS%20-%20Lesson%206.md)
