@@ -15,5 +15,4 @@ I've been curious for quite a while to learn more about NextJS, so I'm doing tha
 - External Images
 - Working with CSS	
 
-#### Coming up
-#### Lesson 7: Deploying to Vercel
+#### [Lesson 7: Deploying to Vercel](Courses/NextJS/NextJS%20-%20Lesson%207.md)

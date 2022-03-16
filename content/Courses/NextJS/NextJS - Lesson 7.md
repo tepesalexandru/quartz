@@ -227,9 +227,9 @@ type Props = {
 };
 
 export default function Navbar({}: Props) {
- return (
- <div></div>
- );
+  return (
+    <div></div>
+  );
 }
 ```
 
